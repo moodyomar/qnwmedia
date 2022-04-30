@@ -1,9 +1,20 @@
 import './App.css';
+import { Navbar } from "./Components"
+import { Hero, Services, Whatwedo, Tools, Plans, Clients, Whorwe, Contact,Footer } from "./Sections"
 
 function App() {
   return (
     <div className="App">
-     New React App From Docker
+      <Navbar />
+      <Hero />
+      <Services />
+      <Whatwedo />
+      <Tools />
+      <Plans />
+      <Clients />
+      <Whorwe />
+      <Contact />
+      <Footer />
     </div>
   );
 }
