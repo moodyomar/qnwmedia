@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero language={heLang} />
-      <Services />
+      <Services language={heLang} />
       <Whatwedo />
       <Tools />
       <Plans />

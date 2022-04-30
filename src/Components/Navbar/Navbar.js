@@ -1,5 +1,5 @@
 import './Navbar.css'
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {RiMenuLine,RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/longlogo.png'
 import {NavItems} from './NavItems'
@@ -8,11 +8,6 @@ import {NavItems} from './NavItems'
 const Navbar = () => { 
 
     let [toggleMenu,setToggleMenu] = useState(false);
-    // const {pathname} = useLocation();
-
-    // useEffect(() => {
-    //     setToggleMenu(false)
-    // },[pathname])
 
 return(
 

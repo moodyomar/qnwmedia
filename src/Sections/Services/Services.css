@@ -1,0 +1,25 @@
+.Services{
+    flex-direction: column;
+    color: var(--text);
+}
+.Services h2{
+margin-bottom: 25px;
+}
+.Services img{
+width: 100%;
+margin-left: 50px;
+}
+.Services .feature{
+display: flex;
+align-items: center;
+font-size: 1.2rem;
+color: var(--orange);
+margin-bottom: 60px;
+}
+.features{
+    position: absolute;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
