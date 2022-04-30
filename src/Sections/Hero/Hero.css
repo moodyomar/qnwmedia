@@ -1,0 +1,35 @@
+.Hero{
+    height: 600px;
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    direction: rtl;
+    position: relative;
+}
+.Hero h1{
+font-size: 2rem;
+}
+.Hero button{
+background: var(--qnw);
+border: none;
+outline: none;
+width: 120px;
+height: 40px;
+border-radius: 8px;
+color: #fff;
+}
+@media screen and (max-width:700px) {
+.Hero{
+    height: 440px;
+}
+}
+@media screen and (min-width:701px)and (max-width:900px) {
+.Hero{
+    height: 50vmin;
+}
+}

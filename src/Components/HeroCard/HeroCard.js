@@ -6,7 +6,9 @@ const HeroCard = () => {
 return(
 
 <div className='HeroCard'>
-<h1>HeroCard</h1>
+    <span className="num">01</span>
+<h2>עיצוב ובניית אתרים</h2>
+<p>בונים לך אתר משלך מאפס עם עיצוב מותאם ומיוחד לפי העסק שיש לך</p>
 </div>
 
 )
