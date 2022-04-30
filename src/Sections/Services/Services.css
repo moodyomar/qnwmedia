@@ -1,6 +1,7 @@
 .Services{
     flex-direction: column;
     color: var(--text);
+    overflow-x: hidden;
 }
 .Services h2{
 margin-bottom: 25px;

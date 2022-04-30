@@ -7,9 +7,10 @@ const {h1,p,button,cards} = language.hero;
 return(
 <>
 <div className='Hero flex-center'>
-<h1>{h1}</h1>
-<p>{p}</p>
-<button>{button}</button>
+    <div className="bg-overlay"></div>
+<h1 data-aos="zoom-in-down" data-aos-duration="2000">{h1}</h1>
+<p data-aos="fade-up" data-aos-duration="2500">{p}</p>
+<button data-aos="fade-up" data-aos-duration="2500">{button}</button>
 </div>
 <div className="Cards flex-center">
 {cards.map(card => <HeroCard num={card.num} title={card.title} 

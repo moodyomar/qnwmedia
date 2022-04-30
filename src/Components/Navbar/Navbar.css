@@ -59,6 +59,7 @@
     }
     .mobile-nav {
         display: flex;
+        z-index: 50;
     }
 }
 
