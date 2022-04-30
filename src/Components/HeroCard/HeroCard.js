@@ -1,14 +1,14 @@
 import './HeroCard.css'
 
 
-const HeroCard = () => { 
+const HeroCard = ({num,title,desc,color}) => { 
 
 return(
 
-<div className='HeroCard'>
-    <span className="num">01</span>
-<h2>עיצוב ובניית אתרים</h2>
-<p>בונים לך אתר משלך מאפס עם עיצוב מותאם ומיוחד לפי העסק שיש לך</p>
+<div className='HeroCard' style={{borderBottom:`3px solid ${color}`}}>
+    <span className="num">{num}</span>
+<h2>{title}</h2>
+<p>{desc}</p>
 </div>
 
 )

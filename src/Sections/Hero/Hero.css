@@ -2,14 +2,9 @@
     height: 600px;
     background-color: gray;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
     gap: 20px;
     direction: rtl;
-    position: relative;
+    flex-direction: column;
 }
 .Hero h1{
 font-size: 2rem;

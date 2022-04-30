@@ -13,3 +13,10 @@
     --bluish:#8895E6;
     --greenish:#67D9C8;
 }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
