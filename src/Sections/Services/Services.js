@@ -7,8 +7,8 @@ const Services = ({language}) => {
 const {h2,features} = language.services;
 return(
 
-<div className='Services flex-center'>
-<h2>{h2}</h2>
+<div className='Services flex-center section'>
+<h2 className='sectionTitle'>{h2}</h2>
 <img src={qnwIg} alt="QNW Media Instagram"
  data-aos="fade-right" data-aos-duration="2000" />
 <div className="features"

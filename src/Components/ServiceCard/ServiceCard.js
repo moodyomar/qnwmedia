@@ -1,12 +1,13 @@
 import './ServiceCard.css'
 
-
-const ServiceCard = () => { 
+const ServiceCard = ({icon,title,desc}) => { 
 
 return(
 
 <div className='ServiceCard'>
-<h1>ServiceCard</h1>
+<img src={icon} alt="QNW Media Service" className="serviceIcon" />
+<h2>{title}</h2>
+<p>{desc}</p>
 </div>
 
 )

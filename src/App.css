@@ -20,3 +20,13 @@
     align-items: center;
     text-align: center;
 }
+.section{
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.sectionTitle{
+    margin-bottom: 40px;
+}
+h2,p{
+    color: var(--text);
+}

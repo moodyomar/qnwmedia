@@ -1,7 +1,6 @@
 .Hero{
     height: 600px;
     background-color: gray;
-    color: #fff;
     gap: 20px;
     direction: rtl;
     flex-direction: column;
@@ -9,6 +8,9 @@
     background-size: cover;
     background-position: 50%;
     position: relative;
+}
+.Hero h1,.Hero p,.Hero button{
+    color: #fff;
 }
 .bg-overlay{
     position: absolute;
@@ -26,7 +28,6 @@ outline: none;
 width: 120px;
 height: 40px;
 border-radius: 8px;
-color: #fff;
 }
 @media screen and (max-width:700px) {
 .Hero{

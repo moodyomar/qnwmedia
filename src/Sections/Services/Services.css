@@ -1,14 +1,9 @@
 .Services{
     flex-direction: column;
-    color: var(--text);
     overflow-x: hidden;
-}
-.Services h2{
-margin-bottom: 25px;
 }
 .Services img{
 width: 100%;
-margin-left: 50px;
 }
 .Services .feature{
 display: flex;
