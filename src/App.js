@@ -4,15 +4,12 @@ import { Hero, Services, Whatwedo, Tools, Plans, Clients, Whorwe, Contact,Footer
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import heLang from './languages/hebrew.json'
-import { useState } from 'react';
-// import arLang from './languages/arabic.json'
 
 function App() {
   AOS.init({
     offset: 200,
   });
 
-  const [lng,setLng] = useState();
 
   return (
     <div className="App">

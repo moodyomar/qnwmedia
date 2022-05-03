@@ -1,10 +1,11 @@
 import './ServiceCard.css'
 
-const ServiceCard = ({icon,title,desc}) => { 
+const ServiceCard = ({icon,title,desc,dir}) => { 
 
 return(
 
-<div className='ServiceCard'>
+<div className='ServiceCard' 
+data-aos={`fade-${dir}`} data-aos-duration="2000">
 <img src={icon} alt="QNW Media Service" className="serviceIcon" />
 <h2>{title}</h2>
 <p>{desc}</p>

@@ -1,9 +1,11 @@
 .Services{
     flex-direction: column;
     overflow-x: hidden;
+    position: relative;
 }
-.Services img{
+.Services .igimg{
 width: 100%;
+margin-bottom: 80px;
 }
 .Services .feature{
 display: flex;
@@ -13,6 +15,7 @@ color: var(--orange);
 margin-bottom: 60px;
 }
 .features{
+    top: 120px;
     position: absolute;
     right: 25px;
     display: flex;

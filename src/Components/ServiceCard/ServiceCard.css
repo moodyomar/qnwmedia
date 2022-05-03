@@ -1,9 +1,9 @@
 .ServiceCard{
-margin-bottom: 50px;
+margin-bottom: 100px;
 }
 .ServiceCard h2,.ServiceCard img{
     margin-bottom: 10px;
 }
-.ServiceCard img{
+.Services .ServiceCard img{
     width: 50px;
 }
