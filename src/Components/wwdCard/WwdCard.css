@@ -6,9 +6,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: red;
-    margin-bottom: 5px;
     color: #fff;
+    margin-bottom: 3px;
+    background-size: cover;
+    background-color: ORANGE;
 }
 .WwdCard h1,.WwdCard h4,.icon{
 margin: 10px 0px;

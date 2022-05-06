@@ -39,6 +39,13 @@
     .links {
         display: none;
     }
+    .Navbar{
+        position: fixed;
+        width: 100vw;
+        z-index: 100;
+        background-color: #fff;
+        box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.23);
+    }
     .mobile-links {
         display: flex;
         flex-direction: column;

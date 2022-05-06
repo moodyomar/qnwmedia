@@ -9,7 +9,8 @@ return(
 
 <div className='Whatwedo flex-center section'>
 {cards.map(card => (
-    <WwdCard title={card.h1} subtitle={card.h4} icon={card.icon} />
+    <WwdCard title={card.h1} subtitle={card.h4}
+     icon={card.icon} bg={card.bg}/>
 ))}
 </div>
 
