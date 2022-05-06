@@ -1,6 +1,4 @@
 .Whatwedo{
 flex-direction: column;
-}
-.Whatwedo h2{
-    /* margin-bottom: 40px; */
+overflow-x: hidden;
 }
