@@ -17,7 +17,7 @@ function App() {
   });
 
 const {language} = useContext(LanguageContext);
-let lng = language == 'arabic' ? arLang : heLang
+let lng = language === 'arabic' ? arLang : heLang
 
   return (
 
