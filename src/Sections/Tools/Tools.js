@@ -1,12 +1,20 @@
+import { ToolCard } from '../../Components';
 import './Tools.css'
 
 
-const Tools = () => { 
-
+const Tools = ({language}) => { 
+    const {p,h2,cards} = language.tools;
 return(
 
-<div className='Tools'>
-<h1>Tools</h1>
+<div className='Tools flex-center section'>
+<p className='subtitle'>{p}</p>
+<h2 className='sectionTitle'>{h2}</h2>
+<div className="cards">
+    {cards.map((card,i) => (
+    <ToolCard key={i} icon={card.icon} title={card.title}
+    desc={card.desc} dir={card.dir}/>
+))}
+</div>
 </div>
 
 )
