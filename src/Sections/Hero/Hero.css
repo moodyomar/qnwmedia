@@ -24,7 +24,7 @@ border-radius: 8px;
 }
 @media screen and (max-width:700px) {
 .Hero{
-    height: 480px;
+    height: 550px;
 }
 .Hero h1{
     width: 70%;

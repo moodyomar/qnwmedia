@@ -8,3 +8,6 @@ margin-bottom: 100px;
 .Services .ServiceCard img{
     width: 50px;
 }
+.serviceIcon{
+    color: var(--orange);
+}

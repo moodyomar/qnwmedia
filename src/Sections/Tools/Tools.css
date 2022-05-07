@@ -1,3 +1,4 @@
 .Tools{
     flex-direction: column;
+    overflow-x: hidden;
 }

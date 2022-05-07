@@ -1,9 +1,13 @@
-import {FaShoppingCart,FaAlignLeft,FaQuestionCircle,FaTablet,FaTable,FaStickyNote} from "react-icons/fa"
+import {FaShoppingCart,FaAlignLeft,FaQuestionCircle,FaTablet,FaTable,FaStickyNote,FaInstagram} from "react-icons/fa"
+import {AiOutlinePieChart,AiOutlineFileDone} from "react-icons/ai"
+import {MdImportantDevices} from "react-icons/md"
+
+
 import {HiCode,} from "react-icons/hi"
 
 
 export const getIcon = (tool) => {
-  let size = 40;
+  let size = 45;
   switch (tool) {
     case 'cart':
       return <FaShoppingCart size={size}/>
@@ -25,6 +29,18 @@ export const getIcon = (tool) => {
   
     case 'copywriting':
       return <FaStickyNote size={size}/>
+  
+    case 'design':
+      return <MdImportantDevices size={size}/>
+  
+    case 'media':
+      return <FaInstagram size={size}/>
+  
+    case 'marketing':
+      return <AiOutlinePieChart size={size}/>
+  
+    case 'solutions':
+      return <AiOutlineFileDone size={size}/>
 
 
   

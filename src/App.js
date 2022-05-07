@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar language={heLang} />
       <Hero language={heLang} />
       <Services language={heLang} />
       <Whatwedo language={heLang} />
