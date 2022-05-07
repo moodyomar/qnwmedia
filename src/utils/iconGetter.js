@@ -1,6 +1,7 @@
 import {FaShoppingCart,FaAlignLeft,FaQuestionCircle,FaTablet,FaTable,FaStickyNote,FaInstagram} from "react-icons/fa"
 import {AiOutlinePieChart,AiOutlineFileDone} from "react-icons/ai"
 import {MdImportantDevices} from "react-icons/md"
+import {HiLightBulb,HiShoppingBag} from "react-icons/hi"
 
 
 import {HiCode,} from "react-icons/hi"
@@ -41,6 +42,12 @@ export const getIcon = (tool) => {
   
     case 'solutions':
       return <AiOutlineFileDone size={size}/>
+
+    case 'idea':
+      return <HiLightBulb size={size}/>
+
+    case 'online':
+      return <HiShoppingBag size={size}/>
 
 
   

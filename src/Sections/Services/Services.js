@@ -1,5 +1,4 @@
 import './Services.css'
-import qnwIg from '../../assets/images/qnw-instagram.png'
 import { AiFillCheckCircle } from 'react-icons/ai';
 import { ServiceCard } from '../../Components'
 
@@ -10,7 +9,7 @@ return(
 
 <div className='Services flex-center section'>
 <h2 className='sectionTitle'>{sh2}</h2>
-<img src={qnwIg} className="igimg" alt="QNW Media Instagram"
+<img src={'images/qnw-instagram.png'} className="igimg" alt="QNW Media Instagram"
  data-aos="fade-right" data-aos-duration="2000" />
 <div className="features">
     {features.map((feature,i) => (
