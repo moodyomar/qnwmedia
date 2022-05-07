@@ -17,7 +17,7 @@ function App() {
       <Hero language={heLang} />
       <Services language={heLang} />
       <Whatwedo language={heLang} />
-      <Tools />
+      <Tools language={heLang} />
       <Plans />
       <Clients />
       <Whorwe />
