@@ -73,16 +73,16 @@
     "whatwedo": {
         "cards": [
             {
-                "icon": "X",
+                "icon": "idea",
                 "h1": "מה מתחייבים ?",
                 "h4": "לקדם את העסק שלכם באינטרנט",
-                "bg": "./assets/images/online-store-pay.png.webp"
+                "bg": "images/online-store-pay.png.webp"
             },
             {
-                "icon": "X",
+                "icon": "online",
                 "h1": "מה עושים ?",
                 "h4": "משדרגים לך את העסק לעולם האונליין",
-                "bg": "/assets/images/online-store-mac.png.webp"
+                "bg": "images/online-store-mac.png.webp"
             }
         ]
     },
