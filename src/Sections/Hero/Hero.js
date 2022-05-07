@@ -13,7 +13,7 @@ return(
 <button data-aos="fade-up" data-aos-duration="2500">{button}</button>
 </div>
 <div className="Cards flex-center">
-{cards.map(card => <HeroCard num={card.num} title={card.title} 
+{cards.map(card => <HeroCard key={card.num} num={card.num} title={card.title} 
 desc={card.desc} color={card.color}/>)}
 </div>
 </>

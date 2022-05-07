@@ -12,11 +12,13 @@ const Navbar = () => {
 return(
 
 <nav className='Navbar'>
-<img src={logo} alt="QNW Media" className="logo" />
+<img src={logo} alt="QNW Media" className="logo"
+data-aos="fade-right" data-aos-duration="1500" />
 <div className="links">
     <NavItems/>
 </div>
-<div className="mobile-nav">
+<div className="mobile-nav"
+data-aos="fade-left" data-aos-duration="1500">
 {!toggleMenu
 ? <RiMenuLine size={30} onClick={() => setToggleMenu(true)} />
 : <RiCloseLine size={30} onClick={() => setToggleMenu(false)} />

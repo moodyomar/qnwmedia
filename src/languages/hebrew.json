@@ -27,9 +27,18 @@
     "services": {
         "sh2": "מיתוג דיגיטלי מביא לך יותר",
         "features": [
-            "נראות",
-            "זהות",
-            "איכות"
+            {
+                "title": "נראות",
+                "speed": "1000"
+            },
+            {
+                "title": "זהות",
+                "speed": "1500"
+            },
+            {
+                "title": "איכות",
+                "speed": "2000"
+            }
         ],
         "p": "השירותים שלנו",
         "wh2": "איך אנחנו מקדמים לך את העסק",
@@ -66,13 +75,13 @@
                 "icon": "X",
                 "h1": "מה מתחייבים ?",
                 "h4": "לקדם את העסק שלכם באינטרנט",
-                "bg":"./assets/images/online-store-pay.png.webp"
+                "bg": "./assets/images/online-store-pay.png.webp"
             },
             {
                 "icon": "X",
                 "h1": "מה עושים ?",
                 "h4": "משדרגים לך את העסק לעולם האונליין",
-                "bg":"/assets/images/online-store-mac.png.webp"
+                "bg": "/assets/images/online-store-mac.png.webp"
             }
         ]
     }
