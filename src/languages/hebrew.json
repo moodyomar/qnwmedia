@@ -190,5 +190,61 @@
             }
         
         ]
+    },
+    "clients":{
+        "p":"אתרים באוויר",
+        "h2":"לקוחות אחרונים שלנו",
+        "clients":[
+            {
+                "client":"Patron",
+                "website":"https://patronltd.com",
+                "favicon":"images/clients/patron.webp"
+            },
+            {
+                "client":"Questna",
+                "website":"https://qusetna.com",
+                "favicon":"images/clients/qusetna.webp"
+            },
+            {
+                "client":"Aragil Amer",
+                "website":"https://aragilamer.com",
+                "favicon":"images/clients/aragilamer.webp"
+            },
+            {
+                "client":"Pretty Dina",
+                "website":"https://prettydina.com",
+                "favicon":"images/clients/prettydina.webp"
+            },
+            {
+                "client":"Kfar Nursery",
+                "website":"https://kfar-nursery.com",
+                "favicon":"images/clients/kfarnursery.webp"
+            },
+            {
+                "client":"Simon Says Crypto",
+                "website":"https://simonsayscrypto.coil",
+                "favicon":"images/clients/ssc.webp"
+            },
+            {
+                "client":"Fiad Eruim",
+                "website":"https://fiad-eruim.com",
+                "favicon":"images/clients/fiaderuim.webp"
+            },
+            {
+                "client":"Mekyaj",
+                "website":"https://mekyaj.com",
+                "favicon":"images/clients/mekyaj.webp"
+            },
+            {
+                "client":"Done Pro",
+                "website":"https://donepro.com",
+                "favicon":"images/clients/donepro.webp"
+            },
+            {
+                "client":"Smartechs",
+                "website":"https://smartechs.shop",
+                "favicon":"images/clients/smartechs.webp"
+            }
+        ]
     }
 }
