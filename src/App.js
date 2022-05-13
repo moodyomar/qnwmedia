@@ -22,7 +22,7 @@ let lng = language === 'arabic' ? arLang : heLang
   return (
 
     <div className="App">
-      {/* <LngSelect/> */}
+      <LngSelect/>
       <Navbar language={lng} />
       <Hero language={lng} />
       <Services language={lng} />
@@ -30,7 +30,7 @@ let lng = language === 'arabic' ? arLang : heLang
       <Tools language={lng} />
       <Plans language={lng}/>
       <Clients language={lng} />
-      <Whorwe />
+      <Whorwe language={lng} />
       <Contact />
       <Footer />
     </div>

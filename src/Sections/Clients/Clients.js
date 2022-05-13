@@ -12,6 +12,9 @@ return(
     <ClientFavicon name={client.name} website={client.website}
     favicon={client.favicon} placment={client.placment}/>
 ))}
+<div className="clients-slider">
+    Slider
+</div>
 </div>
 
 )
