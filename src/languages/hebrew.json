@@ -196,54 +196,114 @@
         "h2":"לקוחות אחרונים שלנו",
         "clients":[
             {
-                "client":"Patron",
+                "name":"Patron",
                 "website":"https://patronltd.com",
-                "favicon":"images/clients/patron.webp"
+                "favicon":"images/clients/patron.png",
+                "placment":{
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":""
+                }
             },
             {
-                "client":"Questna",
+                "name":"Questna",
                 "website":"https://qusetna.com",
-                "favicon":"images/clients/qusetna.webp"
+                "favicon":"images/clients/qusetna.webp",
+                "placment":{
+                    "left":"",
+                    "right":"125px",
+                    "top":"",
+                    "bottom":""
+                }
             },
             {
-                "client":"Aragil Amer",
+                "name":"Aragil Amer",
                 "website":"https://aragilamer.com",
-                "favicon":"images/clients/aragilamer.webp"
+                "favicon":"images/clients/aragilamer.webp",
+                "placment":{
+                    "left":"125px",
+                    "right":"",
+                    "top":"",
+                    "bottom":"50px"
+                }
             },
             {
-                "client":"Pretty Dina",
+                "name":"Pretty Dina",
                 "website":"https://prettydina.com",
-                "favicon":"images/clients/prettydina.webp"
+                "favicon":"images/clients/prettydina.png",
+                "placment":{
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"50px"
+                }
             },
             {
-                "client":"Kfar Nursery",
+                "name":"Kfar Nursery",
                 "website":"https://kfar-nursery.com",
-                "favicon":"images/clients/kfarnursery.webp"
+                "favicon":"images/clients/kfarnursery.webp",
+                "placment":{
+                    "left":"",
+                    "right":"125px",
+                    "top":"",
+                    "bottom":""
+                }
             },
             {
-                "client":"Simon Says Crypto",
+                "name":"Simon Says Crypto",
                 "website":"https://simonsayscrypto.coil",
-                "favicon":"images/clients/ssc.webp"
+                "favicon":"images/clients/ssc.webp",
+                "placment":{
+                    "left":"125px",
+                    "right":"",
+                    "top":"",
+                    "bottom":"100px"
+                }
             },
             {
-                "client":"Fiad Eruim",
+                "name":"Fiad Eruim",
                 "website":"https://fiad-eruim.com",
-                "favicon":"images/clients/fiaderuim.webp"
+                "favicon":"images/clients/fiaderuim.webp",
+                "placment":{
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"50px"
+                }
             },
             {
-                "client":"Mekyaj",
+                "name":"Mekyaj",
                 "website":"https://mekyaj.com",
-                "favicon":"images/clients/mekyaj.webp"
+                "favicon":"images/clients/mekyaj.png",
+                "placment":{
+                    "left":"",
+                    "right":"130px",
+                    "top":"",
+                    "bottom":""
+                }
             },
             {
-                "client":"Done Pro",
+                "name":"Done Pro",
                 "website":"https://donepro.com",
-                "favicon":"images/clients/donepro.webp"
+                "favicon":"images/clients/donepro.webp",
+                "placment":{
+                    "left":"130px",
+                    "right":"",
+                    "top":"",
+                    "bottom":"100px"
+                }
             },
             {
-                "client":"Smartechs",
+                "name":"Smartechs",
                 "website":"https://smartechs.shop",
-                "favicon":"images/clients/smartechs.webp"
+                "favicon":"images/clients/smartechs.webp",
+                "placment":{
+                    "left":"",
+                    "right":"",
+                    "top":"",
+                    "bottom":"50px"
+                }
             }
         ]
     }
