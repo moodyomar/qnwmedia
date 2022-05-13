@@ -1,4 +1,4 @@
-import { ToolCard } from '../../Components';
+import { SectionHeading, ToolCard } from '../../Components';
 import './Tools.css'
 
 
@@ -7,8 +7,7 @@ const Tools = ({language}) => {
 return(
 
 <div className='Tools flex-center section'>
-<p className='subtitle'>{p}</p>
-<h2 className='sectionTitle'>{h2}</h2>
+<SectionHeading p={p} h2={h2}/>
 <div className="cards">
     {cards.map((card,i) => (
     <ToolCard key={i} icon={card.icon} title={card.title}

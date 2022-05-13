@@ -1,6 +1,6 @@
 import './Services.css'
 import { AiFillCheckCircle } from 'react-icons/ai';
-import { ServiceCard } from '../../Components'
+import { SectionHeading, ServiceCard } from '../../Components'
 
 
 const Services = ({language}) => { 
@@ -18,8 +18,7 @@ data-aos="fade-left" data-aos-duration={`${feature.speed}`}>
     {feature.title} <AiFillCheckCircle size={30}/></span>
     ))}
 </div>
-<p className='subtitle'>{p}</p>
-<h2 className='sectionTitle'>{wh2}</h2>
+<SectionHeading p={p} h2={wh2}/>
 {cards.map((card,i) => (
     <ServiceCard key={i} icon={card.icon} title={card.title}
     desc={card.description} dir={card.dir}/>

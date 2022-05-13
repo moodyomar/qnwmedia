@@ -22,14 +22,14 @@ let lng = language === 'arabic' ? arLang : heLang
   return (
 
     <div className="App">
-      <LngSelect/>
+      {/* <LngSelect/> */}
       <Navbar language={lng} />
       <Hero language={lng} />
       <Services language={lng} />
       <Whatwedo language={lng} />
       <Tools language={lng} />
       <Plans language={lng}/>
-      <Clients />
+      <Clients language={lng} />
       <Whorwe />
       <Contact />
       <Footer />

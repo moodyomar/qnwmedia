@@ -1,12 +1,13 @@
+import { SectionHeading } from '../../Components'
 import './Clients.css'
 
 
-const Clients = () => { 
-
+const Clients = ({language}) => { 
+const {p,h2,clients} = language.clients;
 return(
 
-<div className='Clients'>
-<h1>Clients</h1>
+<div className='Clients flex-center section'>
+<SectionHeading p={p} h2={h2}/>
 </div>
 
 )
