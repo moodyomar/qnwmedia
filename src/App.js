@@ -28,7 +28,7 @@ let lng = language === 'arabic' ? arLang : heLang
       <Services language={lng} />
       <Whatwedo language={lng} />
       <Tools language={lng} />
-      <Plans />
+      <Plans language={lng}/>
       <Clients />
       <Whorwe />
       <Contact />

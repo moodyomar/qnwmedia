@@ -74,16 +74,16 @@
         "whatwedo": {
             "cards": [
                 {
-                    "icon": "X",
+                    "icon": "idea",
                     "h1": "بماذا نلتزم ?",
                     "h4": "بتطوير عملك عبر الإنترنت",
-                    "bg": "./assets/images/online-store-pay.png.webp"
+                    "bg": "images/online-store-pay.png.webp"
                 },
                 {
-                    "icon": "X",
+                    "icon": "online",
                     "h1": "ماذا نفعل ?",
                     "h4": "نرقي عملك إلى عالم الإنترنت",
-                    "bg": "/assets/images/online-store-mac.png.webp"
+                    "bg": "images/online-store-mac.png.webp"
                 }
             ]
         },

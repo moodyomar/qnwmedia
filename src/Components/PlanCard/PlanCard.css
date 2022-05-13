@@ -1,0 +1,51 @@
+.PlanCard {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    width: 330px;
+    height: 500px;
+    padding: 50px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.03);
+    color: var(--text);
+}
+.PlanCard:nth-child(even){
+    background-color: var(--text);
+    color: #fff ;
+}
+.PlanCard:nth-child(even) .plan-price,
+.PlanCard:nth-child(even) .plan-title{
+    background-color: var(--text);
+    color: #fff ;
+}
+.plan-title{
+    color: #a6a9ab;
+}
+.PlanCard .plan-price{
+    font-size: 4rem;
+}
+.PlanCard .features-list{
+    list-style-type: none;
+}
+.plan-feature{
+    margin: 10px 0px;
+    font-size: 0.8rem;
+}
+.PlanCard button{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: var(--orange);
+    background-color: var(--text);
+    font-weight: bold;
+    border-radius: 5px;
+margin-top: 25px;
+}
+.plan-alert{
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.webprice{
+    font-weight: bold;
+}
