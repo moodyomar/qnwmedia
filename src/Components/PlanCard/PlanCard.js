@@ -10,8 +10,8 @@ data-aos={`zoom-in`} data-aos-duration="1500">
 <p className='plan-title'>{title}</p>
 <h2 className='plan-price'>{price}</h2>
 <ul className='features-list'>
-    {features.map(feature => (
-        <li className='plan-feature'>{feature}</li>
+    {features.map((feature,i) => (
+        <li key={i} className='plan-feature'>{feature}</li>
     ))}
 </ul>
 <span className='plan-alert'>לא כולל הקמת אתר</span>

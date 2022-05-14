@@ -12,7 +12,7 @@ return(
     {cards.map((card,i) => (
     <PlanCard sub={card.sub} title={card.title}
     price={card.price} features={card.features}
-    webprice={card.webprice}/>
+    webprice={card.webprice} key={i}/>
 ))}
 </div>
 </div>

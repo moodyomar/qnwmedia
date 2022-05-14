@@ -8,9 +8,9 @@ return(
 
 <div className='Clients flex-center section'>
 <SectionHeading p={p} h2={h2}/>
-{clients.map(client => (
+{clients.map((client,i) => (
     <ClientFavicon name={client.name} website={client.website}
-    favicon={client.favicon} placment={client.placment}/>
+    favicon={client.favicon} placment={client.placment} key={i}/>
 ))}
 <div className="clients-slider">
     Slider

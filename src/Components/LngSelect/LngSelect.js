@@ -16,7 +16,7 @@ console.log(language);
 
 return(
 
-<div className='LngSelect' style={{display:`${language !== ''  && 'none'}`}}
+<div className='LngSelect cwhite' style={{display:`${language !== ''  && 'none'}`}}
 data-aos={`zoom-in`} data-aos-duration="1250">
 <div className="arabic" onClick={() => changeLang('arabic')}>عربي</div>
 <div className="hebrew" onClick={() => changeLang('hebrew')}>עברית</div>

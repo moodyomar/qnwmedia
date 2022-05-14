@@ -11,7 +11,7 @@ const Navbar = ({language}) => {
 
 return(
 
-<nav className='Navbar'>
+<nav className='Navbar bgc-white'>
 <img src={logo} alt="QNW Media" className="logo"
 data-aos="fade-right" data-aos-duration="1500" />
 <div className="links">
@@ -25,7 +25,7 @@ data-aos="fade-left" data-aos-duration="1500" />
 data-aos="zoom-in" data-aos-duration="500" />
 }
 
-<div className={`mobile-links ${toggleMenu ? 'fade-in-top' : 'fade-in-bottom'}`}>
+<div className={`mobile-links bgc-white ${toggleMenu ? 'fade-in-top' : 'fade-in-bottom'}`}>
 <NavItems menu={menu}/>
 </div>
 

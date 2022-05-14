@@ -6,7 +6,7 @@ const ClientFavicon = ({name,website,favicon,placment}) => {
 return(
 
 <div className='ClientFavicon'>
-	<div class="avatar" style={{
+	<div className="avatar" style={{
 left:placment.left,
 right:placment.right,
 top:placment.top,

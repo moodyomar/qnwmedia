@@ -13,6 +13,12 @@
     --bluish:#8895E6;
     --greenish:#67D9C8;
 }
+.cwhite{
+    color: #fff;
+}
+.bgc-white{
+    background-color: #fff;
+}
 body{
     background-color: #F6F7F7;
 }
