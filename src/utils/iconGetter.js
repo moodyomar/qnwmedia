@@ -1,6 +1,7 @@
-import {FaShoppingCart,FaAlignLeft,FaQuestionCircle,FaTablet,FaTable,FaStickyNote,FaInstagram} from "react-icons/fa"
-import {AiOutlinePieChart,AiOutlineFileDone} from "react-icons/ai"
+import {FaShoppingCart,FaAlignLeft,FaFacebook,FaQuestionCircle,FaTablet,FaTable,FaStickyNote,FaInstagram} from "react-icons/fa"
+import {AiOutlinePieChart,AiOutlineFileDone,AiFillInstagram} from "react-icons/ai"
 import {MdImportantDevices} from "react-icons/md"
+import {RiWhatsappFill} from "react-icons/ri"
 import {HiLightBulb,HiShoppingBag} from "react-icons/hi"
 
 
@@ -48,6 +49,15 @@ export const getIcon = (tool) => {
 
     case 'online':
       return <HiShoppingBag size={size}/>
+
+    case 'IG':
+      return <AiFillInstagram size={35}/>
+
+    case 'WSP':
+      return <RiWhatsappFill size={35}/>
+
+    case 'FB':
+      return <FaFacebook size={35}/>
 
 
   

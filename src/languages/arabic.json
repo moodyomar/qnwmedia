@@ -133,5 +133,204 @@
                     "dir": "left"
                 }
             ]
+        },
+        "plans":{
+            "p":"למה לבחור בנו",
+            "h2":"מה אנחנו מציעים",
+            "cards":[
+                {
+                    "sub":"monthly",
+                    "title":"עסק אישי",
+                    "price":"279.99",
+                    "features":[
+                        "דף פייסבוק ואינסטגרם",
+                        "אתר ללא חנות עד 3 דפים",
+                        "פוסט חודשי בפייסבוק/אינסטגרם",
+                        "דומיין חינם לשנה .co.il / .com",
+                        "התאמה לטלפון ולטאבלטים",
+                        "עד 5 הוספות ושינויים באתר",
+                        "עיצוב גרפי וכתיבת תוכן",
+                        "אחסון מאובט HTTPS",
+                        "הוספת העסק לגוגל"
+                    ],
+                    "webprice":3000
+                },
+                {
+                    "sub":"monthly",
+                    "title":"עסק חברה",
+                    "price":"479.99",
+                    "features":[
+                        "כל מה שיש בעסק האישי פלוס",
+                        "דואר רשמי name@apple.com",
+                        "פוסט שבוע בפייסבוק/אינסטגרם",
+                        "אתר עד 5 דפים כולל חנות",
+                        "העלאה עד 100 מוצרים",
+                        "מערכת ניהול לאתר",
+                        "ניהול קמפיינים ב 1/2₪ ל 1₪",
+                        "חיבור תשלום באמצעות Paypal"
+                    ],
+                    "webprice":5500
+                },
+                {
+                    "sub":"monthly",
+                    "title":"עסק לעניין",
+                    "price":"879.99",
+                    "features":[
+                        "כל מה שיש בעסק חברה פלוס",
+                        "עד 3 פוסטים בשבוע",
+                        "חנות באינסטגרם ובפייסבוק",
+                        "ניהול חשבונות מידה",
+                        "עיצוב לוגו בהתאמה אישית",
+                        "העלאה עד 500 מוצרים",
+                        "חיבור מערכת סליקה לאתר",
+                        "ניהול קמפיינים ב1/4₪ ל 1₪",
+                        "מלווה ומייעץ אישי 24/7"
+                    ],
+                    "webprice":7000
+                }
+            
+            ]
+        },
+        "clients":{
+            "p":"אתרים באוויר",
+            "h2":"לקוחות אחרונים שלנו",
+            "clients":[
+                {
+                    "name":"Patron",
+                    "website":"https://patronltd.com",
+                    "favicon":"images/clients/patron.png",
+                    "placment":{
+                        "left":"",
+                        "right":"",
+                        "top":"",
+                        "bottom":""
+                    }
+                },
+                {
+                    "name":"Questna",
+                    "website":"https://qusetna.com",
+                    "favicon":"images/clients/qusetna.webp",
+                    "placment":{
+                        "left":"",
+                        "right":"125px",
+                        "top":"",
+                        "bottom":""
+                    }
+                },
+                {
+                    "name":"Aragil Amer",
+                    "website":"https://aragilamer.com",
+                    "favicon":"images/clients/aragilamer.webp",
+                    "placment":{
+                        "left":"125px",
+                        "right":"",
+                        "top":"",
+                        "bottom":"50px"
+                    }
+                },
+                {
+                    "name":"Pretty Dina",
+                    "website":"https://prettydina.com",
+                    "favicon":"images/clients/prettydina.png",
+                    "placment":{
+                        "left":"",
+                        "right":"",
+                        "top":"",
+                        "bottom":"50px"
+                    }
+                },
+                {
+                    "name":"Kfar Nursery",
+                    "website":"https://kfar-nursery.com",
+                    "favicon":"images/clients/kfarnursery.webp",
+                    "placment":{
+                        "left":"",
+                        "right":"125px",
+                        "top":"",
+                        "bottom":""
+                    }
+                },
+                {
+                    "name":"Simon Says Crypto",
+                    "website":"https://simonsayscrypto.coil",
+                    "favicon":"images/clients/ssc.webp",
+                    "placment":{
+                        "left":"125px",
+                        "right":"",
+                        "top":"",
+                        "bottom":"100px"
+                    }
+                },
+                {
+                    "name":"Fiad Eruim",
+                    "website":"https://fiad-eruim.com",
+                    "favicon":"images/clients/fiaderuim.webp",
+                    "placment":{
+                        "left":"",
+                        "right":"",
+                        "top":"",
+                        "bottom":"50px"
+                    }
+                },
+                {
+                    "name":"Mekyaj",
+                    "website":"https://mekyaj.com",
+                    "favicon":"images/clients/mekyaj.png",
+                    "placment":{
+                        "left":"",
+                        "right":"130px",
+                        "top":"",
+                        "bottom":""
+                    }
+                },
+                {
+                    "name":"Done Pro",
+                    "website":"https://donepro.com",
+                    "favicon":"images/clients/donepro.webp",
+                    "placment":{
+                        "left":"130px",
+                        "right":"",
+                        "top":"",
+                        "bottom":"100px"
+                    }
+                },
+                {
+                    "name":"Smartechs",
+                    "website":"https://smartechs.shop",
+                    "favicon":"images/clients/smartechs.webp",
+                    "placment":{
+                        "left":"",
+                        "right":"",
+                        "top":"",
+                        "bottom":"50px"
+                    }
+                }
+            ]
+        },
+        "whorwe":{
+            "p":"סיפורנו",
+            "h2":"אז מי אנחנו",
+            "desc":" QNW Media היא חברת קידום עסקים באינטרנט שמתמחה בבניית אתרים, מיתוג  דיגיטלי, הקמת חנויות אונליין וניהול דפי מדיה לעסקים. החברה הוקמה בתחילת 2020 ומאז פיתחה מגוון פרויקטים שונים , והצוות שלנו הוא צוות איכותי ואחראי לשירותי קצה לקצה כגון בניית אתרים, חנויות אינטרנט, ניהולי דפים ברשתות החברתיות,שיווק דיגיטלי יחד עם שירותי תמיכת לקוחות ומגוון רחב של פתרונות לקידום העסקים של לקוחותינו לעולם האינטרנט והאונליין."
+        },
+        "contact": {
+            "p": "תפנו אלינו",
+            "h2": "לקבלת הצעת מחיר עבור העסק , עלות עבודה או כל התייעצות אחרת",
+            "socialIcons": [
+                {
+                    "name": "IG",
+                    "color": "#B4307D",
+                    "link":"https://www.instagram.com/qnw_media/"
+                },
+                {
+                    "name": "FB",
+                    "color": "#3C5998",
+                    "link":"https://www.facebook.com/QNWMEDIA/"
+                },
+                {
+                    "name": "WSP",
+                    "color": "#25D366",
+                    "link":"https://wa.link/y2col3"
+                }
+            ]
         }
     }

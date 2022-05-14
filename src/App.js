@@ -31,7 +31,7 @@ let lng = language === 'arabic' ? arLang : heLang
       <Plans language={lng}/>
       <Clients language={lng} />
       <Whorwe language={lng} />
-      <Contact />
+      <Contact language={lng}/>
       <Footer />
     </div>
   );

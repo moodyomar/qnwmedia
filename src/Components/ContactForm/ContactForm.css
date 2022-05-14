@@ -1,0 +1,29 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 100%;
+    z-index: 2;
+}
+.contact-form input,
+input[type="submit"],
+.contact-form textarea{
+border-radius: 8px;
+height: 40px;
+margin-bottom: 20px;
+outline: none;
+border: none;
+padding-right: 10px;
+}
+.contact-form label{
+margin-bottom: 8px;
+}
+.contact-form textarea{
+    height: auto;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.contact-form input[type="submit"]{
+height: 40px;
+background: linear-gradient(270deg, #6E61E9 0%, #9087F1 98.98%);
+}
