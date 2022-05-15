@@ -14,6 +14,11 @@ margin-bottom: 20px;
 outline: none;
 border: none;
 padding-right: 10px;
+opacity: 0.7;
+}
+.contact-form input[type="submit"]
+{
+    opacity: 1;
 }
 .contact-form label{
 margin-bottom: 8px;

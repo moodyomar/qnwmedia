@@ -1,0 +1,24 @@
+.Footer{
+    display: grid;
+    height: 500px;
+    background-color: #323b43;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-bottom{
+    margin-top: auto;
+    background-color: #2D363D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom span{
+    color: var(--orange);
+    margin: 0px 5px;
+}
