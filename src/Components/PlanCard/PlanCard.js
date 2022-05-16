@@ -1,7 +1,7 @@
 import './PlanCard.css'
 
 
-const PlanCard = ({sub,title,price,features,webprice}) => { 
+const PlanCard = ({sub,title,price,features,webprice,msg,btnMsg}) => { 
 
 return(
 
@@ -14,9 +14,9 @@ data-aos={`zoom-in`} data-aos-duration="1500">
         <li key={i} className='plan-feature'>{feature}</li>
     ))}
 </ul>
-<span className='plan-alert'>לא כולל הקמת אתר</span>
+<span className='plan-alert'>{msg}</span>
 <div className="webprice">( ₪{webprice} )</div>
-<button>הירשם כמוני</button>
+<button>{btnMsg}</button>
 </div>
 
 )

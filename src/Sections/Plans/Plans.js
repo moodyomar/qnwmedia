@@ -3,7 +3,7 @@ import './Plans.css'
 
 
 const Plans = ({language}) => { 
-    const {p,h2,cards} = language.plans;
+    const {p,h2,cards,disclaimer,btnMsg} = language.plans;
 return(
 
 <div className='Plans flex-center section'>
@@ -12,7 +12,7 @@ return(
     {cards.map((card,i) => (
     <PlanCard sub={card.sub} title={card.title}
     price={card.price} features={card.features}
-    webprice={card.webprice} key={i}/>
+    webprice={card.webprice} msg={disclaimer} btnMsg={btnMsg} key={i}/>
 ))}
 </div>
 </div>

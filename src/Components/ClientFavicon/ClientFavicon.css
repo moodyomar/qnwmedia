@@ -25,7 +25,7 @@
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.4);
 	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
+	animation: float 4s ease-in-out infinite;
     position: relative;
 }
 .avatar img { width: 100%; height: auto; object-fit: cover;}
