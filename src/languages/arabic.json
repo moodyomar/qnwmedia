@@ -307,7 +307,19 @@
                         "bottom":"50px"
                     }
                 }
-            ]
+            ],
+            "previews":[
+                "images/clients/slider_6.jpeg",
+                "images/clients/slider_1.jpeg",
+                "images/clients/slider_2.jpeg",
+                "images/clients/slider_7.jpeg",
+                "images/clients/slider_4.jpeg",
+                "images/clients/slider_9.jpeg",
+                "images/clients/slider_3.jpeg",
+                "images/clients/slider_5.jpeg",
+                "images/clients/slider_1.jpeg",
+                "images/clients/slider_8.jpeg"
+        ]
         },
         "whorwe":{
             "p":"قصتنا",

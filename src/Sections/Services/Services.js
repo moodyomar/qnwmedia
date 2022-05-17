@@ -8,7 +8,14 @@ const {sh2,features,p,wh2,cards} = language.services;
 return(
 
 <div className='Services flex-center section'>
-<h2 className='sectionTitle'>{sh2}</h2>
+<h2 className='sectionTitle'>{sh2}
+<div className="animated-title">
+<div className="word word1"></div>
+    <span>לעסק</span>
+</div>
+</h2>
+
+
 <img src={'images/qnw-instagram.png'} className="igimg" alt="QNW Media Instagram"
  data-aos="fade-right" data-aos-duration="2000" />
 <div className="features">

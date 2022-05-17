@@ -3,7 +3,7 @@ import './Clients.css'
 
 
 const Clients = ({language}) => { 
-const {p,h2,clients} = language.clients;
+const {p,h2,clients,previews} = language.clients;
 return(
 
 <div className='Clients flex-center section'>
@@ -13,7 +13,7 @@ return(
     favicon={client.favicon} placment={client.placment} key={i}/>
 ))}
 <div className="clients-slider">
-    Slider
+    <img src={previews[0]} alt="" />
 </div>
 </div>
 

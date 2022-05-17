@@ -22,3 +22,47 @@ margin-bottom: 60px;
     flex-direction: column;
     align-items: flex-end;
 }
+
+.word{
+    overflow-x: hidden;
+    display: block;
+    margin-left: 130px;
+    font-size: 2.5rem;
+    background: var(--qnw);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.word1{
+    transition: all 2s ease-in-out;
+    /* animation: clip1 6s infinite; */
+}
+.word1::before{
+    animation: clip1 6s infinite;
+    max-width: 200px;
+    content: "חשיפות";
+}
+.animated-title{
+    display: flex;
+    justify-content: center;
+}
+.animated-title span{
+    position: absolute;
+    margin-right: auto;
+    margin-left: -130px;
+    font-size: 2.5rem;
+}
+
+@keyframes clip1 {
+    25% {
+        max-width: 0px;
+    }
+    75% {
+        max-width: 200px;
+        content: "לקוחות";
+    }
+    100% {
+        max-width: 0px;
+        content: "מכירות";
+    }
+    
+}
