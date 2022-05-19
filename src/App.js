@@ -32,7 +32,7 @@ let lng = language === 'arabic' ? arLang : heLang
       <Clients language={lng} />
       <Whorwe language={lng} />
       <Contact language={lng}/>
-      <Footer />
+      <Footer language={lng}/>
     </div>
   );
 }

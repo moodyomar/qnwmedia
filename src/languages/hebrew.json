@@ -144,11 +144,11 @@
     "plans": {
         "p": "תוכניות ומחירים",
         "h2": "החבילות שאנו מציעים",
-        "disclaimer":"לא כולל הקמת אתר",
-        "btnMsg":"הירשם כמוני",
+        "disclaimer": "לא כולל הקמת אתר",
+        "btnMsg": "הירשם כמוני",
         "cards": [
             {
-                "sub": "monthly",
+                "sub": "חודשי",
                 "title": "עסק אישי",
                 "price": "279.99",
                 "features": [
@@ -165,7 +165,7 @@
                 "webprice": 3000
             },
             {
-                "sub": "monthly",
+                "sub": "חודשי",
                 "title": "עסק חברה",
                 "price": "479.99",
                 "features": [
@@ -181,7 +181,7 @@
                 "webprice": 5500
             },
             {
-                "sub": "monthly",
+                "sub": "חודשי",
                 "title": "עסק לעניין",
                 "price": "879.99",
                 "features": [
@@ -314,17 +314,17 @@
                 }
             }
         ],
-        "previews":[
-                "images/clients/slider_6.jpeg",
-                "images/clients/slider_1.jpeg",
-                "images/clients/slider_2.jpeg",
-                "images/clients/slider_7.jpeg",
-                "images/clients/slider_4.jpeg",
-                "images/clients/slider_9.jpeg",
-                "images/clients/slider_3.jpeg",
-                "images/clients/slider_5.jpeg",
-                "images/clients/slider_1.jpeg",
-                "images/clients/slider_8.jpeg"
+        "previews": [
+            "images/clients/slider_6.jpeg",
+            "images/clients/slider_1.jpeg",
+            "images/clients/slider_2.jpeg",
+            "images/clients/slider_7.jpeg",
+            "images/clients/slider_4.jpeg",
+            "images/clients/slider_9.jpeg",
+            "images/clients/slider_3.jpeg",
+            "images/clients/slider_5.jpeg",
+            "images/clients/slider_1.jpeg",
+            "images/clients/slider_8.jpeg"
         ]
     },
     "whorwe": {
@@ -335,23 +335,48 @@
     "contact": {
         "p": "תפנו אלינו",
         "h2": "לקבלת הצעת מחיר עבור העסק , עלות עבודה או כל התייעצות אחרת",
-        "bg":"images/contact.jpg",
+        "bg": "images/contact.jpg",
         "socialIcons": [
             {
                 "name": "IG",
                 "color": "#B4307D",
-                "link":"https://www.instagram.com/qnw_media/"
+                "link": "https://www.instagram.com/qnw_media/"
             },
             {
                 "name": "FB",
                 "color": "#3C5998",
-                "link":"https://www.facebook.com/QNWMEDIA/"
+                "link": "https://www.facebook.com/QNWMEDIA/"
             },
             {
                 "name": "WSP",
                 "color": "#25D366",
-                "link":"https://wa.link/y2col3"
+                "link": "https://wa.link/y2col3"
             }
+        ],
+        "form": [
+        {
+            "name":"שם מלא",
+            "placeholder":"אבי כהן"
+        },
+        {
+            "name":"אימייל",
+            "placeholder":"אבי כהן"
+        },
+        {
+            "name":"תחום העסק",
+            "placeholder":"אבי כהן"
+        },
+        {
+            "name":"טלפון",
+            "placeholder":"אבי כהן"
+        },
+        {
+            "name":"נושא",
+            "placeholder":"אבי כהן"
+        },
+        {
+            "name":"שלח"
+        }
         ]
     }
 }

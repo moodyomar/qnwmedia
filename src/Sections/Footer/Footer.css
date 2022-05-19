@@ -1,9 +1,16 @@
 .Footer{
     display: grid;
-    height: 500px;
+    height: 550px;
     background-color: #323b43;
     text-align: center;
     padding-top: 50px;
+}
+.Footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.Footer a:hover{
+    color: var(--orange);
 }
 
 .footer-bottom{
@@ -17,8 +24,21 @@
     padding: 20px;
     font-size: 0.9rem;
 }
-
+.footer-col1 img{
+    width: 125px;
+    margin-bottom: 20px;
+}
 .footer-bottom span{
     color: var(--orange);
     margin: 0px 5px;
+}
+.Footer svg{
+    margin-bottom: 10px;
+background-color: #fff;
+width: 50px;
+border-radius: 50px;
+padding: 2px;
+}
+.Footer .col .span{
+margin-bottom: 25px;
 }

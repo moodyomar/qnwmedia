@@ -141,7 +141,7 @@
             "btnMsg":"سجل الان",
             "cards":[
                 {
-                    "sub":"monthly",
+                    "sub":"شهري",
                     "title":"مصلحه شخصيه",
                     "price":"279.99",
                     "features":[
@@ -158,7 +158,7 @@
                     "webprice":3000
                 },
                 {
-                    "sub":"monthly",
+                    "sub":"شهري",
                     "title":"مصلحه متقدمه",
                     "price":"479.99",
                     "features":[
@@ -174,7 +174,7 @@
                     "webprice":5500
                 },
                 {
-                    "sub":"monthly",
+                    "sub":"شهري",
                     "title":"مصلحه شركه",
                     "price":"879.99",
                     "features":[
