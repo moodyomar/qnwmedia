@@ -3,11 +3,18 @@ import React, { useState } from 'react';
 import {RiMenuLine,RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/longlogo.png'
 import {NavItems} from './NavItems'
+import { useEffect } from 'react/';
 
 
 const Navbar = ({language}) => { 
     const {menu} = language;
     let [toggleMenu,setToggleMenu] = useState(false);
+    let y = window.scrollY;
+
+
+    useEffect(() => {
+    window.addEventListener("scroll", (e) => setToggleMenu(false));
+    },[y] )
 
 return(
 

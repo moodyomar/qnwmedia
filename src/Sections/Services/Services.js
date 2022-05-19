@@ -7,7 +7,7 @@ const Services = ({language}) => {
 const {sh2,features,p,wh2,cards} = language.services;
 return(
 
-<div className='Services flex-center section'>
+<div className='Services flex-center section' id='1'>
 <h2 className='sectionTitle'>{sh2}
 <div className="animated-title">
 <div className="word word1"></div>
