@@ -354,29 +354,33 @@
             }
         ],
         "form": [
-        {
-            "name":"שם מלא",
-            "placeholder":"אבי כהן"
+            {
+                "name": "שם מלא",
+                "placeholder": "אבי כהן",
+                "type": "text"
+            },
+            {
+                "name": "אימייל",
+                "placeholder": "avi@gmail.com",
+                "type": "email"
+            },
+            {
+                "name": "תחום העסק",
+                "placeholder": "חנות בגדים",
+                "type": "text"
+            },
+            {
+                "name": "טלפון",
+                "placeholder": "0521234567",
+                "type": "number"
+            }
+        ],
+        "textarea": {
+            "name": "נושא",
+            "placeholder": "אני מעוניין לעשות חנות אונליין ל...."
         },
-        {
-            "name":"אימייל",
-            "placeholder":"אבי כהן"
-        },
-        {
-            "name":"תחום העסק",
-            "placeholder":"אבי כהן"
-        },
-        {
-            "name":"טלפון",
-            "placeholder":"אבי כהן"
-        },
-        {
-            "name":"נושא",
-            "placeholder":"אבי כהן"
-        },
-        {
-            "name":"שלח"
+        "btn": {
+            "name": "שלח"
         }
-        ]
     }
 }

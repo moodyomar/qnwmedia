@@ -27,7 +27,7 @@
             ]
         },
         "services": {
-            "sh2": "العلامة التجارية الرقمية تجلب لك المزيد من",
+            "sh2": "العلامة التجارية تجلب لك المزيد من",
             "features": [
                 {
                     "title": "رؤية",
@@ -346,6 +346,36 @@
                     "color": "#25D366",
                     "link":"https://wa.link/y2col3"
                 }
-            ]
+            ],
+            "form": [
+                {
+                    "name": "الاسم الكامل",
+                    "placeholder": "احمد سالم",
+                    "type": "text"
+                },
+                {
+                    "name": "البريد الالكتروني",
+                    "placeholder": "ahmad@gmail.com",
+                    "type": "email"
+                },
+                {
+                    "name": "مجال المصلحه",
+                    "placeholder": "متجر متجر الكترونيات",
+                    "type": "text"
+                },
+                {
+                    "name": "الهاتف",
+                    "placeholder": "0521234567",
+                    "type": "number"
+                }
+            ],
+            "textarea": {
+                "name": "الموضوع",
+                "placeholder": "اني معني ببناء موقع ومتجر اونلاين ...."
+            },
+            "btn": {
+                "name": "ارسال"
+            }
+     
         }
     }

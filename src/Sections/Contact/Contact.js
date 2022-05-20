@@ -22,7 +22,7 @@ return(
     </a>
 ) )}
 </div>
-<ContactForm />
+<ContactForm language={language} />
 <div className="map">
     MAP will be here
 </div>

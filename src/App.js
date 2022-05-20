@@ -1,14 +1,19 @@
 import './App.css';
 import { useContext } from 'react';
-import { Navbar,LngSelect } from "./Components"
-import { Hero, Services, Whatwedo, Tools, Plans, Clients, Whorwe, Contact,Footer } from "./Sections"
+import { LngSelect } from "./Components"
 import LanguageContext from './context/LanguageContext'
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-
+import 'aos/dist/aos.css';
 import heLang from './languages/hebrew.json'
 import arLang from './languages/arabic.json'
+import Home from './pages/Home/Home';
+
+
 
 function App() {
 
@@ -16,23 +21,18 @@ function App() {
     offset: 200,
   });
 
-const {language} = useContext(LanguageContext);
-let lng = language === 'arabic' ? arLang : heLang
+  const { language } = useContext(LanguageContext);
+  let lng = language === 'ar' ? arLang : heLang
 
   return (
 
     <div className="App">
-      <LngSelect/>
-      <Navbar language={lng} />
-      <Hero language={lng} />
-      <Services language={lng} />
-      <Whatwedo language={lng} />
-      <Tools language={lng} />
-      <Plans language={lng}/>
-      <Clients language={lng} />
-      <Whorwe language={lng} />
-      <Contact language={lng}/>
-      <Footer language={lng}/>
+      <Router>
+        <Routes>
+        <Route index element={<LngSelect />} />
+        <Route path={`/${language}`} element={<Home lng={lng} />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
