@@ -7,6 +7,8 @@ import { useEffect } from 'react/';
 
 
 const Navbar = ({language}) => { 
+    console.log("heyy");
+    console.log(language);
     const {menu} = language;
     let [toggleMenu,setToggleMenu] = useState(false);
     let y = window.scrollY;

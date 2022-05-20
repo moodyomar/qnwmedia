@@ -15,7 +15,7 @@ color: var(--orange);
 margin-bottom: 60px;
 }
 .features{
-    top: 150px;
+    top: 200px;
     position: absolute;
     right: 25px;
     display: flex;
