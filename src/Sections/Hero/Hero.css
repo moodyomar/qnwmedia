@@ -22,9 +22,15 @@ width: 120px;
 height: 40px;
 border-radius: 8px;
 }
+.Cards{
+    flex-direction: row;
+}
 @media screen and (max-width:700px) {
 .Hero{
     height: 550px;
+}
+.Cards{
+    flex-direction: column;
 }
 .Hero h1{
     width: 70%;

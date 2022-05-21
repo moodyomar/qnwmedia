@@ -26,10 +26,12 @@ data-aos="fade-left" data-aos-duration={`${feature.speed}`}>
     ))}
 </div>
 <SectionHeading p={p} h2={wh2}/>
+<div className="cards">
 {cards.map((card,i) => (
     <ServiceCard key={i} icon={card.icon} title={card.title}
     desc={card.description} dir={card.dir}/>
 ))}
+</div>
 </div>
 
 )

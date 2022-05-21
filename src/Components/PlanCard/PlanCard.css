@@ -49,3 +49,9 @@ margin-top: 25px;
 .webprice{
     font-weight: bold;
 }
+
+@media screen and (min-width: 900px) {
+    .PlanCard {
+        width: 360px;
+    }
+}

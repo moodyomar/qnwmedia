@@ -1,3 +1,12 @@
 .Plans{
     flex-direction: column;
 }
+
+@media screen and (min-width: 900px) {
+    .Plans .cards{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+    }
+}

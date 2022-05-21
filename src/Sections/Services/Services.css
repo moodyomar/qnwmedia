@@ -1,20 +1,23 @@
-.Services{
+.Services {
     flex-direction: column;
     overflow-x: hidden;
     position: relative;
 }
-.Services .igimg{
-width: 100%;
-margin-bottom: 80px;
+
+.Services .igimg {
+    width: 100%;
+    margin-bottom: 80px;
 }
-.Services .feature{
-display: flex;
-align-items: center;
-font-size: 1.2rem;
-color: var(--orange);
-margin-bottom: 60px;
+
+.Services .feature {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: var(--orange);
+    margin-bottom: 60px;
 }
-.features{
+
+.features {
     top: 200px;
     position: absolute;
     right: 25px;
@@ -23,7 +26,7 @@ margin-bottom: 60px;
     align-items: flex-end;
 }
 
-.word{
+.word {
     overflow-x: hidden;
     display: block;
     margin-left: 130px;
@@ -32,20 +35,24 @@ margin-bottom: 60px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.word1{
+
+.word1 {
     transition: all 2s ease-in-out;
     /* animation: clip1 6s infinite; */
 }
-.word1::before{
+
+.word1::before {
     animation: clip1 6s infinite;
     max-width: 200px;
     content: "חשיפות";
 }
-.animated-title{
+
+.animated-title {
     display: flex;
     justify-content: center;
 }
-.animated-title span{
+
+.animated-title span {
     position: absolute;
     margin-right: auto;
     margin-left: -130px;
@@ -56,13 +63,30 @@ margin-bottom: 60px;
     25% {
         max-width: 0px;
     }
+
     75% {
         max-width: 200px;
         content: "לקוחות";
     }
+
     100% {
         max-width: 0px;
         content: "מכירות";
     }
-    
+
+}
+
+@media screen and (min-width: 900px) {
+    .Services .igimg {
+        width: 40%;
+        margin-right: 45%;
+    }
+
+    .Services .cards {
+        /* width: 50%; */
+    }
+
+    .features {
+        right: 55%;
+    }
 }

@@ -11,3 +11,10 @@ margin-bottom: 100px;
 .serviceIcon{
     color: var(--orange);
 }
+
+@media screen and (min-width: 900px) {
+    .ServiceCard{
+        width: 250px;
+        font-size: 0.9rem;
+    }   
+}

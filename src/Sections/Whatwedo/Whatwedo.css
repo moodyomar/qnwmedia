@@ -2,3 +2,10 @@
 flex-direction: column;
 overflow-x: hidden;
 }
+
+@media screen and (min-width: 900px) {
+    .Whatwedo{
+        flex-direction: row;
+        padding: 0;
+    }
+}
