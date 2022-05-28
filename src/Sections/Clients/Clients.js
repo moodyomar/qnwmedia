@@ -8,12 +8,16 @@ return(
 
 <div className='Clients flex-center section' id="3">
 <SectionHeading p={p} h2={h2}/>
+<div className="favicons">
 {clients.map((client,i) => (
     <ClientFavicon name={client.name} website={client.website}
     favicon={client.favicon} placment={client.placment} key={i}/>
 ))}
+</div>
 <div className="clients-slider" id='4'>
     <img src={previews[0]} alt="" />
+    <img src={previews[1]} alt="" />
+    <img src={previews[2]} alt="" />
 </div>
 </div>
 

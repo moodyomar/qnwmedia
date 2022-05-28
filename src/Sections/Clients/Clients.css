@@ -8,27 +8,26 @@ overflow-x: hidden;
 .clients-slider{
     background-color: #fff;
     width: 100vw;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
+    gap: 50px;
     align-items: center;
 }
-.shekel{
-    font-size: 1.5rem;
-    position: relative;
-    bottom: 20px;
-}
-.plan-period{
-    position: absolute;
-    font-size: 0.8rem;
-    top: 65px;
-    right: 10px;
-    background-color: var(--orange);
-    color: #fff;
-    width: 50px;
-    height: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@media screen and (min-width: 900px) {
+    .clients-slider img{
+        width: 450px;
+    }
+    .favicons{
+        display: flex;
+        flex-direction: row;
+    }
+    .favicons .ClientFavicon{
+        padding: 25px;
+        margin: 150px 0px;
+    }
+    .favicons .ClientFavicon:nth-child(even){
+        transform: translateY(50px);
+    }
 }
