@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.image-and-features {
+    width: 100%;
+}
+
 .Services .igimg {
     width: 100%;
     margin-bottom: 80px;
@@ -20,7 +24,6 @@
 .features {
     top: 200px;
     position: absolute;
-    right: 25px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -78,15 +81,44 @@
 
 @media screen and (min-width: 900px) {
     .Services .igimg {
-        width: 40%;
-        margin-right: 45%;
+        width: 60%;
     }
 
-    .Services .cards {
-        /* width: 50%; */
+    .Services .ServiceCard {
+        margin: 12px;
+    }
+
+    .Services {
+        display: grid;
+        grid-template-areas:
+            ' SectionHeading SectionHeading sectionTitle sectionTitle'
+            ' cards cards image-and-features image-and-features';
+    }
+
+    .sectionTitle {
+        grid-area: sectionTitle;
+    }
+
+    .SectionHeading {
+        grid-area: SectionHeading;
+    }
+
+    .image-and-features {
+        grid-area: image-and-features;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cards {
+        grid-area: cards;
+        display: flex;
+        width: 550px;
+        margin: 50px;
+        height: 500px;
+        flex-wrap: wrap;
     }
 
     .features {
-        right: 55%;
+        margin-left: 15%;
     }
 }
