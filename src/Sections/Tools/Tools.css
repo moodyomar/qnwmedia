@@ -1,4 +1,21 @@
-.Tools{
+.Tools {
     flex-direction: column;
     overflow-x: hidden;
+}
+
+@media screen and (min-width: 700px) {
+
+    .tools-cards {
+        width: calc((23vmin) * 4);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .tools-cards {
+        width: calc((32.5vmin) * 4);
+    }
 }

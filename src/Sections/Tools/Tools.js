@@ -8,7 +8,7 @@ return(
 
 <div className='Tools flex-center section'>
 <SectionHeading p={p} h2={h2}/>
-<div className="cards">
+<div className="tools-cards">
     {cards.map((card,i) => (
     <ToolCard key={i} icon={card.icon} title={card.title}
     desc={card.desc} dir={card.dir}/>
