@@ -22,12 +22,14 @@
     position: relative;
     bottom: 20px;
 }
-
 @media screen and (min-width: 900px) {
+
     .Plans .cards{
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         width: 100%;
+        height: auto;
     }
+
 }
