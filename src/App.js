@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-        <Route index element={<LngSelect />} />
+        <Route index element={<LngSelect lng={lng} />} />
         <Route path={`/${language}`} element={<Home lng={lng} />} />
         </Routes>
       </Router>

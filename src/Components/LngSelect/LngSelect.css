@@ -9,7 +9,9 @@
     background-color: rgba(28, 10, 2, 0.876);
     /* z-index: 110; */
     background-size: cover;
-    background-position-x: right;
+    background-repeat: no-repeat;
+    /* background-position-x: right; */
+    background-position: center;
 }
 .LngSelect .row{
     display: flex;
@@ -17,7 +19,17 @@
 .LngSelect img{
     width: 125px;
     position: absolute;
+    top: 80px;
+}
+.LngSelect .social-icons
+{
+    position: absolute;
     bottom: 80px;
+}
+.LngSelect .social-icons a
+{
+    background-color: var(--orange) !important;
+    color: white;
 }
 .LngSelect a {
     text-decoration: none;

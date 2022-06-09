@@ -4,9 +4,10 @@ import {Link} from 'react-router-dom';
 import bg from '../../assets/lng-bg.jpeg'
 import logo from '../../assets/long-white.png'
 import './LngSelect.css'
+import {SocialIcons} from '../../Components'
 
 
-const LngSelect = () => { 
+const LngSelect = ({lng}) => { 
 
 const {changeLang,language} = useContext(LanguageContext);
 
@@ -22,6 +23,7 @@ return(
 <div className='LngSelect cwhite' style={{backgroundImage:`url(${bg})`}}>
     <div className="bg-overlay"></div>
     <img src={logo} alt="" />
+    <SocialIcons language={lng}/>
     <div className="row">
 <Link to="/ar" className="arabic" onClick={() => changeLang('ar')}
 data-aos={`fade-right`} data-aos-duration="1250">عربي</Link>
