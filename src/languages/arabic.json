@@ -1,381 +1,391 @@
-
-    {
-        "menu":["الرئيسيه","خدماتنا","رزم واسعار","اعمالنا","عنا","تواصلوا معنا"],
-        "hero": {
-            "h1": "ابدأ في البيع وجني الأموال قبل أن تفتح مصلحتك",
-            "p": "متجر اونلاين يبيع حتى وإن لم تكن متواجد في متجرك!",
-            "button": "تواصلوا معنا الان",
-            "cards": [
-                {
-                    "num":"01",
-                    "title": "تصميم وبناء مواقع",
-                    "desc": "نبني موقع الويب الخاص بك من البداية بتصميم خاص ومخصص وفقًا لعملك",
-                    "color":"#F47A1A"
-                },
-                {
-                    "num":"02",
-                    "title": "بناء متاجر اونلاين",
-                    "desc": "تقوم بإعداد متجر عبر الإنترنت كامل ، يشمل نظام دفع عبر بطاقه الائتمان",
-                    "color":"#8895E6"
-                },
-                {
-                    "num":"03",
-                    "title": "تطوير وتسويق ديجيتالي ",
-                    "desc": "ندير لك حساباتك على الشبكات الاجتماعية بتوجيه ودعم شخصي",
-                    "color":"#67D9C8"
-                }
-            ]
-        },
-        "services": {
-            "sh2": "العلامة التجارية تجلب لك المزيد من",
-            "features": [
-                {
-                    "title": "رؤية",
-                    "speed": "1000"
-                },
-                {
-                    "title": "هويه",
-                    "speed": "1500"
-                },
-                {
-                    "title": "جودة",
-                    "speed": "2000"
-                }
-            ],
-            "p": "خدماتنا",
-            "wh2": "كيف نطور لك مصلحتك",
-            "cards": [
-                {
-                    "icon": "design",
-                    "title": "تصميم وبناء مواقع",
-                    "description": "نقم بتحسين هوية عملك والوصول إلى المزيد من العملاء المحتملين من خلال موقع استثنائي وواضح. كما نعمل معًا لدمج رؤيتنا الإبداعية للتوصل إلى شيء مميز وتحويل عملك إلى علامة تجارية.",
-                    "dir": "left"
-                },
-                {
-                    "icon": "media",
-                    "title": "ادارة حسابات سوشيال ميديا",
-                    "description": "نقم بإعداد صفحات سوشيال ميديا من البداية أو تساعدك على إدارة الصفحات الموجودة على انستاغرام و فيسبوك بشكل احترافي ومثير للإعجاب ، وتصميم منشورات مخصصة خاصة ونشرها على أساس أسبوعي والمزيد",
-                    "dir": "right"
-                },
-                {
-                    "icon": "marketing",
-                    "title": "حلول للتسويق",
-                    "description": "نحن نساعد عملائنا على المضي قدمًا في أعمالهم من خلال تطوير استراتيجيات أتمتة برامجية وتسويقية يمكن تنفيذها بشكل مصطنع مع تأثير كبير",
-                    "dir": "left"
-                },
-                {
-                    "icon": "solutions",
-                    "title": "إستراتيجية رقمية",
-                    "description": "يعد فهم احتياجات الجمهور هو الخطوة الأولى في تحقيق استراتيجية تجربة المستخدم وإنشاء حلول منتجات فريدة من نوعها تحقق أهدافك",
-                    "dir": "right"
-                }
-            ]
-        },
-        "whatwedo": {
-            "cards": [
-                {
-                    "icon": "idea",
-                    "h1": "بماذا نلتزم ?",
-                    "h4": "بتطوير عملك عبر الإنترنت",
-                    "bg": "images/online-store-pay.png.webp"
-                },
-                {
-                    "icon": "online",
-                    "h1": "ماذا نفعل ?",
-                    "h4": "نرقي عملك إلى عالم الإنترنت",
-                    "bg": "images/online-store-mac.png.webp"
-                }
-            ]
-        },
-        "tools":{
-            "p":"لماذا نحن",
-            "h2":"ماذا نقدم لكم",
-            "cards":[
-                {
-                    "icon":"cart",
-                    "title":"e-Commerce",
-                    "desc":"ننشئ لك متجرًا على الإنترنت لعملك من البداية وحتر كسب المال عبر الإنترنت",
-                     "dir": "left"
-                },
-                {
-                    "icon":"seo",
-                    "title":"SEO",
-                    "desc":"نقدم لك خدمات ترويج وتسويق عضوية في أفضل محركات البحث في العالم",
-                    "dir": "right"
-                },
-                {
-                    "icon":"develop",
-                    "title":"Develop",
-                    "desc":"نصمم وننشئ موقعًا احترافيًا ومخصصًا لك يناسب جميع الأجهزة",
-                     "dir": "left"
-                },
-                {
-                    "icon":"webdesign",
-                    "title":"Web Design",
-                    "desc":"إدارة صفحات عملك على الشبكات الاجتماعية ، بما في ذلك منشورات التصميم والإعلان والتسويق",
-                    "dir": "right"
-                },
-                {
-                    "icon":"copywriting",
-                    "title":"Copy Writing",
-                    "desc":"نكتب محتوى المنشورات في وسائل الإعلام ، بما في ذلك كتابة محتوى مخصص لموقعك"
-                },
-                {
-                    "icon":"maintenance",
-                    "title":"Maintenance",
-                    "desc":"نقدم لك التوجيه والدعم الكاملين لأي مساعدة أو عطل أو حتى تغييرات مستقبلية في الموقع",
-                    "dir": "right"
-                },
-                {
-                    "icon":"hosting",
-                    "title":"Hosting",
-                    "desc":"نقدم لك خوادم تخزين سريعة وآمنة لتخزين الملفات وإدارة بريد إلكتروني احترافية",
-                    "dir": "left"
-                }
-            ]
-        },
-        "plans":{
-            "p":"الرزم والأسعار",
-            "h2":"الرزم التي نقدمها",
-            "disclaimer":"لا يشمل بناء الموقع",
-            "btnMsg":"سجل الان",
-            "cards":[
-                {
-                    "sub":"شهري",
-                    "title":"مصلحه شخصيه",
-                    "price":"279.99",
-                    "features":[
-                        "صفحة فيسبوك و انستاغرام",
-                        "موقع بدون متجر حتى 3 صفحات",
-                        "منشور شهري على فيسبوك و انستاغرام",
-                        "دومين مجاني لسنة co.il / .com",
-                        "ملائمه للهواتف والأجهزة اللوحية",
-                        "حتى 5 إضافات وتغييرات على الموقع",
-                        "تصميم الجرافيك وكتابة المحتوى",
-                        "تخزين HTTPS آمن",
-                        "إضافة مصلحتك إلى جوجل"
-                    ],
-                    "webprice":3000
-                },
-                {
-                    "sub":"شهري",
-                    "title":"مصلحه متقدمه",
-                    "price":"479.99",
-                    "features":[
-                        "كل ما ذكر في المصلحه شخصيه زائد",
-                        "بريد الكتروني موثق apple.com",
-                        "منشور اسبوعي على فيسبوك و انستاغرام",
-                        "موقع مع متجر حتى 5 صفحات",
-                        "تحميل ما يصل إلى 100 منتج",
-                        "نظام/لوحه إدارة للموقع",
-                        "إدارة تمويل بـ 1/2 شيكل لـ 1 شيكل",
-                        "توصيل نظام دفع عبر Paypal"
-                    ],
-                    "webprice":5500
-                },
-                {
-                    "sub":"شهري",
-                    "title":"مصلحه شركه",
-                    "price":"879.99",
-                    "features":[
-                        "كل ما ذكر في المصلحه المتقدمه زائد",
-                        "حتى 3 مناشير على فيسبوك و انستاغرام",
-                        "متجر على فيسبوك و انستاغرام",
-                        "إدارة حسابات السوشيال ميديا",
-                        "تصميم شعار مخصص",
-                        "تحميل ما يصل إلى 500 منتج",
-                        "توصيل نظام دفع عبر كرديت كارد",
-                        "إدارة تمويل بـ 1/4 شيكل لـ 1 شيكل",
-                        "مستشار شخصي ومرافق بشكل متواصل"
-                    ],
-                    "webprice":7000
-                }
-            
-            ]
-        },
-        "clients":{
-            "p":"مواقع لنا",
-            "h2":"آخر عملائنا",
-            "clients":[
-                {
-                    "name":"Patron",
-                    "website":"https://patronltd.com",
-                    "favicon":"images/clients/patron.png",
-                    "placment":{
-                        "left":"",
-                        "right":"",
-                        "top":"",
-                        "bottom":""
-                    }
-                },
-                {
-                    "name":"Questna",
-                    "website":"https://qusetna.com",
-                    "favicon":"images/clients/qusetna.webp",
-                    "placment":{
-                        "left":"",
-                        "right":"125px",
-                        "top":"",
-                        "bottom":""
-                    }
-                },
-                {
-                    "name":"Aragil Amer",
-                    "website":"https://aragilamer.com",
-                    "favicon":"images/clients/aragilamer.webp",
-                    "placment":{
-                        "left":"125px",
-                        "right":"",
-                        "top":"",
-                        "bottom":"50px"
-                    }
-                },
-                {
-                    "name":"Pretty Dina",
-                    "website":"https://prettydina.com",
-                    "favicon":"images/clients/prettydina.png",
-                    "placment":{
-                        "left":"",
-                        "right":"",
-                        "top":"",
-                        "bottom":"50px"
-                    }
-                },
-                {
-                    "name":"Kfar Nursery",
-                    "website":"https://kfar-nursery.com",
-                    "favicon":"images/clients/kfarnursery.webp",
-                    "placment":{
-                        "left":"",
-                        "right":"125px",
-                        "top":"",
-                        "bottom":""
-                    }
-                },
-                {
-                    "name":"Simon Says Crypto",
-                    "website":"https://simonsayscrypto.coil",
-                    "favicon":"images/clients/ssc.webp",
-                    "placment":{
-                        "left":"125px",
-                        "right":"",
-                        "top":"",
-                        "bottom":"100px"
-                    }
-                },
-                {
-                    "name":"Fiad Eruim",
-                    "website":"https://fiad-eruim.com",
-                    "favicon":"images/clients/fiaderuim.webp",
-                    "placment":{
-                        "left":"",
-                        "right":"",
-                        "top":"",
-                        "bottom":"50px"
-                    }
-                },
-                {
-                    "name":"Mekyaj",
-                    "website":"https://mekyaj.com",
-                    "favicon":"images/clients/mekyaj.png",
-                    "placment":{
-                        "left":"",
-                        "right":"130px",
-                        "top":"",
-                        "bottom":""
-                    }
-                },
-                {
-                    "name":"Done Pro",
-                    "website":"https://donepro.com",
-                    "favicon":"images/clients/donepro.webp",
-                    "placment":{
-                        "left":"130px",
-                        "right":"",
-                        "top":"",
-                        "bottom":"100px"
-                    }
-                },
-                {
-                    "name":"Smartechs",
-                    "website":"https://smartechs.shop",
-                    "favicon":"images/clients/smartechs.webp",
-                    "placment":{
-                        "left":"",
-                        "right":"",
-                        "top":"",
-                        "bottom":"50px"
-                    }
-                }
-            ],
-            "previews":[
-                "images/clients/slider_6.jpeg",
-                "images/clients/slider_1.jpeg",
-                "images/clients/slider_2.jpeg",
-                "images/clients/slider_7.jpeg",
-                "images/clients/slider_4.jpeg",
-                "images/clients/slider_9.jpeg",
-                "images/clients/slider_3.jpeg",
-                "images/clients/slider_5.jpeg",
-                "images/clients/slider_1.jpeg",
-                "images/clients/slider_8.jpeg"
-        ]
-        },
-        "whorwe":{
-            "p":"قصتنا",
-            "h2":"من نحن",
-            "desc":" QNW Media هي شركة ترويج أعمال عبر الإنترنت متخصصة في إنشاء مواقع الويب والعلامات التجارية الرقمية وإنشاء متاجر عبر الإنترنت وإدارة صفحات الوسائط للشركات. تأسست الشركة في أوائل عام 2020 ومنذ ذلك الحين طورت مجموعة متنوعة من المشاريع المختلفة. فريقنا هو فريق ذا جودة عاليه ومسؤول عن الخدمات الشاملة مثل بناء مواقع الويب والمتاجر عبر الإنترنت وإدارة الصفحات على الشبكات الاجتماعية والتسويق الرقمي على طول مع خدمات دعم العملاء ومجموعة واسعة من الحلول لتطوير أعمال عملائنا."
-        },
-        "contact": {
-            "p": "تواصلوا معنا",
-            "h2": "للحصول على عرض لمصلحتكم أو تكلفة الموقع أو أي استشارة أخرى",
-            "bg":"images/contact.jpg",
-            "socialIcons": [
-                {
-                    "name": "IG",
-                    "color": "#B4307D",
-                    "link":"https://www.instagram.com/qnw_media/"
-                },
-                {
-                    "name": "FB",
-                    "color": "#3C5998",
-                    "link":"https://www.facebook.com/QNWMEDIA/"
-                },
-                {
-                    "name": "WSP",
-                    "color": "#25D366",
-                    "link":"https://wa.link/y2col3"
-                }
-            ],
-            "form": [
-                {
-                    "name": "الاسم الكامل",
-                    "placeholder": "احمد سالم",
-                    "type": "text"
-                },
-                {
-                    "name": "البريد الالكتروني",
-                    "placeholder": "ahmad@gmail.com",
-                    "type": "email"
-                },
-                {
-                    "name": "مجال المصلحه",
-                    "placeholder": "متجر متجر الكترونيات",
-                    "type": "text"
-                },
-                {
-                    "name": "الهاتف",
-                    "placeholder": "0521234567",
-                    "type": "number"
-                }
-            ],
-            "textarea": {
-                "name": "الموضوع",
-                "placeholder": "اني معني ببناء موقع ومتجر اونلاين ...."
+{
+    "menu": [
+        "الرئيسيه",
+        "خدماتنا",
+        "رزم واسعار",
+        "اعمالنا",
+        "عنا",
+        "تواصلوا معنا"
+    ],
+    "hero": {
+        "h1": "ابدأ في البيع وجني الأموال قبل أن تفتح مصلحتك",
+        "p": "متجر اونلاين يبيع حتى وإن لم تكن متواجد في متجرك!",
+        "h11": "دعنا نروج لك عملك الى عالم الإنترنت",
+        "p11": "أكثر من مجرد وكالة تسويق اخرى",
+        "h12": "وفر آلاف الصور، الرسائل والمكالمات الغير الضرورية",
+        "p12": "موقع مخصص لعملك يرد على جميع عملائك",
+        "h13": "اكتسب المزيد من الوقت للاستثمار في ما يهم حقًا",
+        "p13": "ندير لك جميع صفحات السوشيال ميديا ",
+        "button": "تواصلوا معنا الان",
+        "cards": [
+            {
+                "num": "01",
+                "title": "تصميم وبناء مواقع",
+                "desc": "نبني موقع الويب الخاص بك من البداية بتصميم خاص ومخصص وفقًا لعملك",
+                "color": "#F47A1A"
             },
-            "btn": {
-                "name": "ارسال"
+            {
+                "num": "02",
+                "title": "بناء متاجر اونلاين",
+                "desc": "تقوم بإعداد متجر عبر الإنترنت كامل ، يشمل نظام دفع عبر بطاقه الائتمان",
+                "color": "#8895E6"
+            },
+            {
+                "num": "03",
+                "title": "تطوير وتسويق ديجيتالي ",
+                "desc": "ندير لك حساباتك على الشبكات الاجتماعية بتوجيه ودعم شخصي",
+                "color": "#67D9C8"
             }
-     
+        ]
+    },
+    "services": {
+        "sh2": "العلامة التجارية تجلب لك المزيد من",
+        "features": [
+            {
+                "title": "رؤية",
+                "speed": "1000"
+            },
+            {
+                "title": "هويه",
+                "speed": "1500"
+            },
+            {
+                "title": "جودة",
+                "speed": "2000"
+            }
+        ],
+        "p": "خدماتنا",
+        "wh2": "كيف نطور لك مصلحتك",
+        "cards": [
+            {
+                "icon": "design",
+                "title": "تصميم وبناء مواقع",
+                "description": "نقم بتحسين هوية عملك والوصول إلى المزيد من العملاء المحتملين من خلال موقع استثنائي وواضح. كما نعمل معًا لدمج رؤيتنا الإبداعية للتوصل إلى شيء مميز وتحويل عملك إلى علامة تجارية.",
+                "dir": "left"
+            },
+            {
+                "icon": "media",
+                "title": "ادارة حسابات سوشيال ميديا",
+                "description": "نقم بإعداد صفحات سوشيال ميديا من البداية أو تساعدك على إدارة الصفحات الموجودة على انستاغرام و فيسبوك بشكل احترافي ومثير للإعجاب ، وتصميم منشورات مخصصة خاصة ونشرها على أساس أسبوعي والمزيد",
+                "dir": "right"
+            },
+            {
+                "icon": "marketing",
+                "title": "حلول للتسويق",
+                "description": "نحن نساعد عملائنا على المضي قدمًا في أعمالهم من خلال تطوير استراتيجيات أتمتة برامجية وتسويقية يمكن تنفيذها بشكل مصطنع مع تأثير كبير",
+                "dir": "left"
+            },
+            {
+                "icon": "solutions",
+                "title": "إستراتيجية رقمية",
+                "description": "يعد فهم احتياجات الجمهور هو الخطوة الأولى في تحقيق استراتيجية تجربة المستخدم وإنشاء حلول منتجات فريدة من نوعها تحقق أهدافك",
+                "dir": "right"
+            }
+        ]
+    },
+    "whatwedo": {
+        "cards": [
+            {
+                "icon": "idea",
+                "h1": "بماذا نلتزم ?",
+                "h4": "بتطوير عملك عبر الإنترنت",
+                "bg": "images/online-store-pay.png.webp"
+            },
+            {
+                "icon": "online",
+                "h1": "ماذا نفعل ?",
+                "h4": "نرقي عملك إلى عالم الإنترنت",
+                "bg": "images/online-store-mac.png.webp"
+            }
+        ]
+    },
+    "tools": {
+        "p": "لماذا نحن",
+        "h2": "ماذا نقدم لكم",
+        "cards": [
+            {
+                "icon": "cart",
+                "title": "e-Commerce",
+                "desc": "ننشئ لك متجرًا على الإنترنت لعملك من البداية وحتر كسب المال عبر الإنترنت",
+                "dir": "left"
+            },
+            {
+                "icon": "seo",
+                "title": "SEO",
+                "desc": "نقدم لك خدمات ترويج وتسويق عضوية في أفضل محركات البحث في العالم",
+                "dir": "right"
+            },
+            {
+                "icon": "develop",
+                "title": "Develop",
+                "desc": "نصمم وننشئ موقعًا احترافيًا ومخصصًا لك يناسب جميع الأجهزة",
+                "dir": "left"
+            },
+            {
+                "icon": "webdesign",
+                "title": "Web Design",
+                "desc": "إدارة صفحات عملك على الشبكات الاجتماعية ، بما في ذلك منشورات التصميم والإعلان والتسويق",
+                "dir": "right"
+            },
+            {
+                "icon": "copywriting",
+                "title": "Copy Writing",
+                "desc": "نكتب محتوى المنشورات في وسائل الإعلام ، بما في ذلك كتابة محتوى مخصص لموقعك"
+            },
+            {
+                "icon": "maintenance",
+                "title": "Maintenance",
+                "desc": "نقدم لك التوجيه والدعم الكاملين لأي مساعدة أو عطل أو حتى تغييرات مستقبلية في الموقع",
+                "dir": "right"
+            },
+            {
+                "icon": "hosting",
+                "title": "Hosting",
+                "desc": "نقدم لك خوادم تخزين سريعة وآمنة لتخزين الملفات وإدارة بريد إلكتروني احترافية",
+                "dir": "left"
+            }
+        ]
+    },
+    "plans": {
+        "p": "الرزم والأسعار",
+        "h2": "الرزم التي نقدمها",
+        "disclaimer": "لا يشمل بناء الموقع",
+        "btnMsg": "سجل الان",
+        "cards": [
+            {
+                "sub": "شهري",
+                "title": "مصلحه شخصيه",
+                "price": "279.99",
+                "features": [
+                    "صفحة فيسبوك و انستاغرام",
+                    "موقع بدون متجر حتى 3 صفحات",
+                    "منشور شهري على فيسبوك و انستاغرام",
+                    "دومين مجاني لسنة co.il / .com",
+                    "ملائمه للهواتف والأجهزة اللوحية",
+                    "حتى 5 إضافات وتغييرات على الموقع",
+                    "تصميم الجرافيك وكتابة المحتوى",
+                    "تخزين HTTPS آمن",
+                    "إضافة مصلحتك إلى جوجل"
+                ],
+                "webprice": 3000
+            },
+            {
+                "sub": "شهري",
+                "title": "مصلحه متقدمه",
+                "price": "479.99",
+                "features": [
+                    "كل ما ذكر في المصلحه شخصيه زائد",
+                    "بريد الكتروني موثق apple.com",
+                    "منشور اسبوعي على فيسبوك و انستاغرام",
+                    "موقع مع متجر حتى 5 صفحات",
+                    "تحميل ما يصل إلى 100 منتج",
+                    "نظام/لوحه إدارة للموقع",
+                    "إدارة تمويل بـ 1/2 شيكل لـ 1 شيكل",
+                    "توصيل نظام دفع عبر Paypal"
+                ],
+                "webprice": 5500
+            },
+            {
+                "sub": "شهري",
+                "title": "مصلحه شركه",
+                "price": "879.99",
+                "features": [
+                    "كل ما ذكر في المصلحه المتقدمه زائد",
+                    "حتى 3 مناشير على فيسبوك و انستاغرام",
+                    "متجر على فيسبوك و انستاغرام",
+                    "إدارة حسابات السوشيال ميديا",
+                    "تصميم شعار مخصص",
+                    "تحميل ما يصل إلى 500 منتج",
+                    "توصيل نظام دفع عبر كرديت كارد",
+                    "إدارة تمويل بـ 1/4 شيكل لـ 1 شيكل",
+                    "مستشار شخصي ومرافق بشكل متواصل"
+                ],
+                "webprice": 7000
+            }
+        ]
+    },
+    "clients": {
+        "p": "مواقع لنا",
+        "h2": "آخر عملائنا",
+        "clients": [
+            {
+                "name": "Patron",
+                "website": "https://patronltd.com",
+                "favicon": "images/clients/patron.png",
+                "placment": {
+                    "left": "",
+                    "right": "",
+                    "top": "",
+                    "bottom": ""
+                }
+            },
+            {
+                "name": "Questna",
+                "website": "https://qusetna.com",
+                "favicon": "images/clients/qusetna.webp",
+                "placment": {
+                    "left": "",
+                    "right": "125px",
+                    "top": "",
+                    "bottom": ""
+                }
+            },
+            {
+                "name": "Aragil Amer",
+                "website": "https://aragilamer.com",
+                "favicon": "images/clients/aragilamer.webp",
+                "placment": {
+                    "left": "125px",
+                    "right": "",
+                    "top": "",
+                    "bottom": "50px"
+                }
+            },
+            {
+                "name": "Pretty Dina",
+                "website": "https://prettydina.com",
+                "favicon": "images/clients/prettydina.png",
+                "placment": {
+                    "left": "",
+                    "right": "",
+                    "top": "",
+                    "bottom": "50px"
+                }
+            },
+            {
+                "name": "Kfar Nursery",
+                "website": "https://kfar-nursery.com",
+                "favicon": "images/clients/kfarnursery.webp",
+                "placment": {
+                    "left": "",
+                    "right": "125px",
+                    "top": "",
+                    "bottom": ""
+                }
+            },
+            {
+                "name": "Simon Says Crypto",
+                "website": "https://simonsayscrypto.coil",
+                "favicon": "images/clients/ssc.webp",
+                "placment": {
+                    "left": "125px",
+                    "right": "",
+                    "top": "",
+                    "bottom": "100px"
+                }
+            },
+            {
+                "name": "Fiad Eruim",
+                "website": "https://fiad-eruim.com",
+                "favicon": "images/clients/fiaderuim.webp",
+                "placment": {
+                    "left": "",
+                    "right": "",
+                    "top": "",
+                    "bottom": "50px"
+                }
+            },
+            {
+                "name": "Mekyaj",
+                "website": "https://mekyaj.com",
+                "favicon": "images/clients/mekyaj.png",
+                "placment": {
+                    "left": "",
+                    "right": "130px",
+                    "top": "",
+                    "bottom": ""
+                }
+            },
+            {
+                "name": "Done Pro",
+                "website": "https://donepro.com",
+                "favicon": "images/clients/donepro.webp",
+                "placment": {
+                    "left": "130px",
+                    "right": "",
+                    "top": "",
+                    "bottom": "100px"
+                }
+            },
+            {
+                "name": "Smartechs",
+                "website": "https://smartechs.shop",
+                "favicon": "images/clients/smartechs.webp",
+                "placment": {
+                    "left": "",
+                    "right": "",
+                    "top": "",
+                    "bottom": "50px"
+                }
+            }
+        ],
+        "previews": [
+            "images/clients/slider_6.jpeg",
+            "images/clients/slider_1.jpeg",
+            "images/clients/slider_2.jpeg",
+            "images/clients/slider_7.jpeg",
+            "images/clients/slider_4.jpeg",
+            "images/clients/slider_9.jpeg",
+            "images/clients/slider_3.jpeg",
+            "images/clients/slider_5.jpeg",
+            "images/clients/slider_1.jpeg",
+            "images/clients/slider_8.jpeg"
+        ]
+    },
+    "whorwe": {
+        "p": "قصتنا",
+        "h2": "من نحن",
+        "desc": " QNW Media هي شركة ترويج أعمال عبر الإنترنت متخصصة في إنشاء مواقع الويب والعلامات التجارية الرقمية وإنشاء متاجر عبر الإنترنت وإدارة صفحات الوسائط للشركات. تأسست الشركة في أوائل عام 2020 ومنذ ذلك الحين طورت مجموعة متنوعة من المشاريع المختلفة. فريقنا هو فريق ذا جودة عاليه ومسؤول عن الخدمات الشاملة مثل بناء مواقع الويب والمتاجر عبر الإنترنت وإدارة الصفحات على الشبكات الاجتماعية والتسويق الرقمي على طول مع خدمات دعم العملاء ومجموعة واسعة من الحلول لتطوير أعمال عملائنا."
+    },
+    "contact": {
+        "p": "تواصلوا معنا",
+        "h2": "للحصول على عرض لمصلحتكم أو تكلفة الموقع أو أي استشارة أخرى",
+        "bg": "images/contact.jpg",
+        "socialIcons": [
+            {
+                "name": "IG",
+                "color": "#B4307D",
+                "link": "https://www.instagram.com/qnw_media/"
+            },
+            {
+                "name": "FB",
+                "color": "#3C5998",
+                "link": "https://www.facebook.com/QNWMEDIA/"
+            },
+            {
+                "name": "WSP",
+                "color": "#25D366",
+                "link": "https://wa.link/y2col3"
+            }
+        ],
+        "form": [
+            {
+                "name": "الاسم الكامل",
+                "placeholder": "احمد سالم",
+                "type": "text"
+            },
+            {
+                "name": "البريد الالكتروني",
+                "placeholder": "ahmad@gmail.com",
+                "type": "email"
+            },
+            {
+                "name": "مجال المصلحه",
+                "placeholder": "متجر متجر الكترونيات",
+                "type": "text"
+            },
+            {
+                "name": "الهاتف",
+                "placeholder": "0521234567",
+                "type": "number"
+            }
+        ],
+        "textarea": {
+            "name": "الموضوع",
+            "placeholder": "اني معني ببناء موقع ومتجر اونلاين ...."
+        },
+        "btn": {
+            "name": "ارسال"
         }
     }
+}

@@ -1,9 +1,7 @@
 .Hero{
     height: 600px;
-    background-color: gray;
     gap: 20px;
     flex-direction: column;
-    background-image: url("http://qnwmedia.com/wp-content/uploads/2022/03/5.jpg");
     background-size: cover;
     background-position: 50%;
     position: relative;
