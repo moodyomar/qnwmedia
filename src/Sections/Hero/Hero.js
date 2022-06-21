@@ -24,7 +24,7 @@ const Hero = ({ language }) => {
             if (counter >= images.length - 1) setCounter(0);
             else setCounter(counter + 1);
 
-        }, 4000)
+        }, 4500)
 
         return () => clearInterval(intervalId);
     }, [counter,images])
