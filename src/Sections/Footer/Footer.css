@@ -1,19 +1,23 @@
-.Footer{
+.Footer {
     display: grid;
-    height: 550px;
+    height: 400px;
     background-color: #323b43;
     text-align: center;
     padding-top: 50px;
+    grid-template-areas: "footer-col1 footer-col2 footer-col3 footer-col4"
+        "footer-bottom footer-bottom footer-bottom footer-bottom";
 }
-.Footer a{
+
+.Footer a {
     text-decoration: none;
     color: #fff;
 }
-.Footer a:hover{
+
+.Footer a:hover {
     color: var(--orange);
 }
 
-.footer-bottom{
+.footer-bottom {
     margin-top: auto;
     background-color: #2D363D;
     display: flex;
@@ -23,22 +27,45 @@
     width: 100%;
     padding: 20px;
     font-size: 0.9rem;
+    grid-area: footer-bottom;
 }
-.footer-col1 img{
+
+.footer-col4 ul {
+    list-style-type: none;
+}
+
+.footer-col1 img {
     width: 125px;
     margin-bottom: 20px;
+    grid-area: footer-col1;
 }
-.footer-bottom span{
+
+.footer-bottom span {
     color: var(--orange);
     margin: 0px 5px;
 }
-.Footer svg{
+
+.Footer svg {
     margin-bottom: 10px;
-background-color: #fff;
-width: 50px;
-border-radius: 50px;
-padding: 2px;
+    background-color: #fff;
+    width: 50px;
+    border-radius: 50px;
+    padding: 2px;
 }
-.Footer .col .span{
-margin-bottom: 25px;
+
+.Footer .col .span {
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    .Footer {
+        grid-template-areas:
+            "footer-col1"
+            "footer-col2"
+            " footer-col3 "
+            "footer-col4"
+            "footer-bottom ";
+            height: 550px;
+    }
+
 }
