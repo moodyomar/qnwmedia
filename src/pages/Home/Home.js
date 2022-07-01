@@ -1,5 +1,5 @@
 import { Hero, Services, Whatwedo, Tools, Plans, Clients, Whorwe, Contact,Footer } from "../../Sections"
-import {Navbar } from "../../Components"
+import {Bubbles, Navbar } from "../../Components"
 
 
 // import './Home.css'
@@ -10,6 +10,7 @@ const Home = ({lng}) => {
     return (
 
         <div className='Home'>
+            <Bubbles/>
             <Navbar language={lng} />
             <Hero language={lng} />
             <Services language={lng} />
