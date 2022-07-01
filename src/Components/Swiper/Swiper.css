@@ -1,0 +1,35 @@
+.slider {
+    position: relative;
+  }
+  
+  .image {
+    border-radius: 10px;
+  }
+  
+  .right-arrow {
+    right: 32px;
+  }
+  .left-arrow,.right-arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    color: var(--orange);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    
+  }
+  .left-arrow,.right-arrow {
+    left: 32px;
+  }
+  
+  .slide {
+    transition-duration: 1s ease;
+    width: 100%;
+  }
+  
+  .slide.active {
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+  

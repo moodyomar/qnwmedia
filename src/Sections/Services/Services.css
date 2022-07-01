@@ -29,38 +29,7 @@
     align-items: flex-end;
 }
 
-.word {
-    overflow-x: hidden;
-    display: block;
-    margin-left: 130px;
-    font-size: 2.5rem;
-    background: var(--qnw);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-.word1 {
-    transition: all 2s ease-in-out;
-    /* animation: clip1 6s infinite; */
-}
-
-.word1::before {
-    animation: clip1 6s infinite;
-    max-width: 200px;
-    content: "חשיפות";
-}
-
-.animated-title {
-    display: flex;
-    justify-content: center;
-}
-
-.animated-title span {
-    position: absolute;
-    margin-right: auto;
-    margin-left: -130px;
-    font-size: 2.5rem;
-}
 
 @keyframes clip1 {
     25% {
@@ -122,3 +91,43 @@
         margin-left: 15%;
     }
 }
+
+  .slider-wrapper {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider{
+    height: 50px;
+    padding-left:15px;
+    overflow: hidden;
+  }
+  .slider div {
+    color:#fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  .slider-text1 {
+    background: #00a8a3;
+    animation: slide 5s linear infinite;
+  }
+  .slider-text2 {
+    background: #8795E6;
+  }
+  .slider-text3 {
+    background: #F47A1B;
+  }
+  @keyframes slide {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;}
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;}
+    100% {margin-top:0px;}
+  }

@@ -1,4 +1,4 @@
-import { ClientFavicon, SectionHeading } from '../../Components'
+import { ClientFavicon, SectionHeading, Swiper } from '../../Components'
 import './Clients.css'
 
 
@@ -15,9 +15,8 @@ return(
 ))}
 </div>
 <div className="clients-slider" id='4'>
-    <img src={previews[0]} alt="" />
-    <img src={previews[1]} alt="" />
-    <img src={previews[2]} alt="" />
+
+<Swiper slides={previews} />
 </div>
 </div>
 
