@@ -1,9 +1,9 @@
 import { useEffect, useState,useMemo } from 'react';
 import HeroCard from '../../Components/HeroCard/HeroCard';
-import s1 from '../../assets/money.jpeg';
+import s1 from '../../assets/h1.jpg';
 import s2 from '../../assets/online.jpeg';
-import s3 from '../../assets/calls.jpeg';
-import s4 from '../../assets/social.jpeg';
+import s3 from '../../assets/h2.jpg';
+import s4 from '../../assets/h3.jpg';
 import './Hero.css'
 
 

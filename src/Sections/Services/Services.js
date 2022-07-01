@@ -4,7 +4,7 @@ import { SectionHeading, ServiceCard } from '../../Components'
 
 
 const Services = ({ language }) => {
-    const { sh2, features, p, wh2, cards } = language.services;
+    const { sh2, features, p, wh2, cards,s,s1,s2,s3 } = language.services;
     return (
 
         <div className='Services flex-center section' id='1'>
@@ -12,11 +12,11 @@ const Services = ({ language }) => {
         <div class="slider-wrapper">
           {/* I enjoy */}
           <div class="slider">
-              <div class="slider-text1">חשיפה</div>
-              <div class="slider-text2">לקוחות</div>
-              <div class="slider-text3">מכירות</div>
+              <div class="slider-text1">{s1}</div>
+              <div class="slider-text2">{s2}</div>
+              <div class="slider-text3">{s3}</div>
           </div>
-          לעסק
+          {s}
         </div>       
             </h2>
 
