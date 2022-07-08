@@ -215,7 +215,7 @@
             {
                 "name": "Patron",
                 "website": "https://patronltd.com",
-                "favicon": "images/clients/patron.png",
+                "favicon": "images/clients/patron.webp",
                 "placment": {
                     "left": "",
                     "right": "",
@@ -248,7 +248,7 @@
             {
                 "name": "Pretty Dina",
                 "website": "https://prettydina.com",
-                "favicon": "images/clients/prettydina.png",
+                "favicon": "images/clients/prettydina.webp",
                 "placment": {
                     "left": "",
                     "right": "",
@@ -292,7 +292,7 @@
             {
                 "name": "Mekyaj",
                 "website": "https://mekyaj.com",
-                "favicon": "images/clients/mekyaj.png",
+                "favicon": "images/clients/mekyaj.webp",
                 "placment": {
                     "left": "",
                     "right": "130px",
@@ -325,7 +325,7 @@
         ],
         "previews": [
             "images/clients/slider_6.jpeg",
-            "images/clients/slider_1.jpeg",
+            "images/clients/slider_1.webp",
             "images/clients/slider_2.jpeg",
             "images/clients/slider_7.jpeg",
             "images/clients/slider_4.jpeg",
@@ -344,7 +344,7 @@
     "contact": {
         "p": "تواصلوا معنا",
         "h2": "للحصول على عرض لمصلحتكم أو تكلفة الموقع أو أي استشارة أخرى",
-        "bg": "images/contact.jpg",
+        "bg": "images/contact.webp",
         "socialIcons": [
             {
                 "name": "IG",

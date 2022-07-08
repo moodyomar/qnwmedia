@@ -1,7 +1,7 @@
 import {useEffect,useContext } from 'react';
 import LanguageContext from '../../context/LanguageContext';
 import {Link} from 'react-router-dom';
-import bg from '../../assets/lng-bg.jpeg'
+import bg from '../../assets/lng-bg.webp'
 import logo from '../../assets/long-white.png'
 import './LngSelect.css'
 import {SocialIcons} from '../../Components'
@@ -25,9 +25,9 @@ return(
     <img src={logo} alt="" />
     <SocialIcons language={lng}/>
     <div className="row">
-<Link to="/ar" className="arabic" onClick={() => changeLang('ar')}
+<Link to="/home" className="arabic" onClick={() => changeLang('ar')}
 data-aos={`fade-right`} data-aos-duration="1250">عربي</Link>
-<Link to="/he" className="hebrew" onClick={() => changeLang('he')}
+<Link to="/home" className="hebrew" onClick={() => changeLang('he')}
 data-aos={`fade-left`} data-aos-duration="1250">עברית</Link>
     </div>
 </div>

@@ -10,7 +10,6 @@ const Services = ({ language }) => {
         <div className='Services flex-center section' id='1'>
             <h2 className='sectionTitle'>{sh2}
         <div class="slider-wrapper">
-          {/* I enjoy */}
           <div class="slider">
               <div class="slider-text1">{s1}</div>
               <div class="slider-text2">{s2}</div>
@@ -22,7 +21,7 @@ const Services = ({ language }) => {
 
 
             <div className="image-and-features">
-                <img src={'images/qnw-instagram.png'} className="igimg" alt="QNW Media Instagram"
+                <img src={'images/qnw-instagram.webp'} className="igimg" alt="QNW Media Instagram"
                     data-aos="fade-right" data-aos-duration="2000" />
                 <div className="features">
                     {features.map((feature, i) => (

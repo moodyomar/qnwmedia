@@ -16,7 +16,7 @@ data-aos={`zoom-in`} data-aos-duration="1500">
 </ul>
 <span className='plan-alert'>{msg}</span>
 <div className="webprice">( ₪{webprice} )</div>
-<button>{btnMsg}</button>
+<button className='scale-in-center sub-btn'>{btnMsg}</button>
 </div>
 
 )
