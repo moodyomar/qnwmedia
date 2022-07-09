@@ -215,6 +215,7 @@
             {
                 "name": "Patron",
                 "website": "https://patronltd.com",
+                "preview":"images/clients/slider_6.webp",
                 "favicon": "images/clients/patron.webp",
                 "placment": {
                     "left": "",
@@ -226,6 +227,7 @@
             {
                 "name": "Questna",
                 "website": "https://qusetna.com",
+                "preview":"images/clients/slider_10.webp",
                 "favicon": "images/clients/qusetna.webp",
                 "placment": {
                     "left": "",
@@ -237,6 +239,7 @@
             {
                 "name": "Aragil Amer",
                 "website": "https://aragilamer.com",
+                "preview":"images/clients/slider_2.webp",
                 "favicon": "images/clients/aragilamer.webp",
                 "placment": {
                     "left": "125px",
@@ -248,6 +251,7 @@
             {
                 "name": "Pretty Dina",
                 "website": "https://prettydina.com",
+                "preview":"images/clients/slider_7.webp",
                 "favicon": "images/clients/prettydina.webp",
                 "placment": {
                     "left": "",
@@ -259,6 +263,7 @@
             {
                 "name": "Kfar Nursery",
                 "website": "https://kfar-nursery.com",
+                "preview":"images/clients/slider_4.webp",
                 "favicon": "images/clients/kfarnursery.webp",
                 "placment": {
                     "left": "",
@@ -270,6 +275,7 @@
             {
                 "name": "Simon Says Crypto",
                 "website": "https://simonsayscrypto.coil",
+                "preview":"images/clients/slider_9.webp",
                 "favicon": "images/clients/ssc.webp",
                 "placment": {
                     "left": "125px",
@@ -281,6 +287,7 @@
             {
                 "name": "Fiad Eruim",
                 "website": "https://fiad-eruim.com",
+                "preview":"images/clients/slider_3.jpeg",
                 "favicon": "images/clients/fiaderuim.webp",
                 "placment": {
                     "left": "",
@@ -292,6 +299,7 @@
             {
                 "name": "Mekyaj",
                 "website": "https://mekyaj.com",
+                "preview":"images/clients/slider_5.jpeg",
                 "favicon": "images/clients/mekyaj.webp",
                 "placment": {
                     "left": "",
@@ -314,6 +322,7 @@
             {
                 "name": "Smartechs",
                 "website": "https://smartechs.shop",
+                "preview":"images/clients/slider_8.webp",
                 "favicon": "images/clients/smartechs.webp",
                 "placment": {
                     "left": "",
@@ -321,18 +330,19 @@
                     "top": "",
                     "bottom": "50px"
                 }
+            },
+            {
+                "name": "Aljazar",
+                "website": "https://aljazar.com/home",
+                "preview":"images/clients/slider_1.webp",
+                "favicon": "images/clients/aljazar.webp",
+                "placment": {
+                    "left": "150px",
+                    "right": "",
+                    "top": "",
+                    "bottom": "50px"
+                }
             }
-        ],
-        "previews": [
-            "images/clients/slider_6.jpeg",
-            "images/clients/slider_1.webp",
-            "images/clients/slider_2.jpeg",
-            "images/clients/slider_7.jpeg",
-            "images/clients/slider_4.jpeg",
-            "images/clients/slider_9.jpeg",
-            "images/clients/slider_3.jpeg",
-            "images/clients/slider_5.jpeg",
-            "images/clients/slider_8.jpeg"
         ]
     },
     "whorwe": {

@@ -3,7 +3,7 @@ import './Clients.css'
 
 
 const Clients = ({language}) => { 
-const {p,h2,clients,previews} = language.clients;
+const {p,h2,clients} = language.clients;
 return(
 
 <div className='Clients flex-center section' id="3">
@@ -16,7 +16,7 @@ return(
 </div>
 <div className="clients-slider" id='4'>
 
-<Swiper slides={previews} />
+<Swiper slides={clients} />
 </div>
 </div>
 
