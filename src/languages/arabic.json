@@ -221,7 +221,7 @@
                     "left": "",
                     "right": "",
                     "top": "",
-                    "bottom": ""
+                    "bottom": "-150px"
                 }
             },
             {
@@ -242,10 +242,10 @@
                 "preview":"images/clients/slider_2.webp",
                 "favicon": "images/clients/aragilamer.webp",
                 "placment": {
-                    "left": "125px",
+                    "left": "150px",
                     "right": "",
                     "top": "",
-                    "bottom": "50px"
+                    "bottom": "100px"
                 }
             },
             {
@@ -257,7 +257,7 @@
                     "left": "",
                     "right": "",
                     "top": "",
-                    "bottom": "50px"
+                    "bottom": "-100px"
                 }
             },
             {
@@ -267,7 +267,7 @@
                 "favicon": "images/clients/kfarnursery.webp",
                 "placment": {
                     "left": "",
-                    "right": "125px",
+                    "right": "150px",
                     "top": "",
                     "bottom": ""
                 }
@@ -278,10 +278,10 @@
                 "preview":"images/clients/slider_9.webp",
                 "favicon": "images/clients/ssc.webp",
                 "placment": {
-                    "left": "125px",
+                    "left": "150px",
                     "right": "",
                     "top": "",
-                    "bottom": "100px"
+                    "bottom": "150px"
                 }
             },
             {
@@ -293,7 +293,7 @@
                     "left": "",
                     "right": "",
                     "top": "",
-                    "bottom": "50px"
+                    "bottom": "-125px"
                 }
             },
             {
@@ -303,9 +303,9 @@
                 "favicon": "images/clients/mekyaj.webp",
                 "placment": {
                     "left": "",
-                    "right": "130px",
+                    "right": "150px",
                     "top": "",
-                    "bottom": ""
+                    "bottom": "-35px"
                 }
             },
             {
@@ -316,7 +316,7 @@
                     "left": "130px",
                     "right": "",
                     "top": "",
-                    "bottom": "100px"
+                    "bottom": "150px"
                 }
             },
             {
@@ -326,9 +326,9 @@
                 "favicon": "images/clients/smartechs.webp",
                 "placment": {
                     "left": "",
-                    "right": "",
+                    "right": "100px",
                     "top": "",
-                    "bottom": "50px"
+                    "bottom": "-50px"
                 }
             },
             {
@@ -337,10 +337,10 @@
                 "preview":"images/clients/slider_1.webp",
                 "favicon": "images/clients/aljazar.webp",
                 "placment": {
-                    "left": "150px",
-                    "right": "",
+                    "left": "0px",
+                    "right": "-100px",
                     "top": "",
-                    "bottom": "50px"
+                    "bottom": "100px"
                 }
             }
         ]
