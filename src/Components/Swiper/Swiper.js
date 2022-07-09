@@ -1,41 +1,42 @@
-import React, { useState } from 'react';
+import { useEffect, useState } from 'react';
+import Carousel from 'react-elastic-carousel'
 import "./Swiper.css"
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
-const ImageSlider = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+const Swiper = ({ slides }) => {
+const [mobile,setMobile] = useState(true);
+  useEffect(() => {
 
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
+    window.innerWidth < 680 ? setMobile(true) : setMobile(false)
 
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
-
+  },[mobile] );
+   
   return (
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {slides.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide} alt={`QNWmedia ${index}`} className='image' />
-            )}
-          </div>
-        );
-      })}
-    </section>
-  );
-};
+    <>
+    {mobile ? (
+        <Carousel itemsToShow={1} enableAutoPlay autoPlaySpeed={2000} >
+        {
+          slides.map((slide,idx) =>
+            <div key={idx}>
+              <img src={slide} alt={slide} />
+            </div>
+          )
+        }
+      </Carousel>
+    )
+  : (
+    <Carousel itemsToShow={3} enableAutoPlay autoPlaySpeed={2000} >
+    {
+      slides.map((slide,idx) =>
+        <div key={idx}>
+          <img src={slide} alt={slide} />
+        </div>
+      )
+    }
+  </Carousel>
+  )}
+    </>
+  )
+}
 
-export default ImageSlider;
+export default Swiper;

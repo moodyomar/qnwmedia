@@ -9,11 +9,11 @@ const Services = ({ language }) => {
 
         <div className='Services flex-center section' id='1'>
             <h2 className='sectionTitle'>{sh2}
-        <div class="slider-wrapper">
-          <div class="slider">
-              <div class="slider-text1">{s1}</div>
-              <div class="slider-text2">{s2}</div>
-              <div class="slider-text3">{s3}</div>
+        <div className="slider-wrapper">
+          <div className="slider">
+              <div className="slider-text1">{s1}</div>
+              <div className="slider-text2">{s2}</div>
+              <div className="slider-text3">{s3}</div>
           </div>
           {s}
         </div>       
