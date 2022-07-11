@@ -10,9 +10,7 @@ return(
 <SectionHeading p={p} h2={h2}/>
 <div className="cards">
     {cards.map((card,i) => (
-    <PlanCard sub={card.sub} title={card.title}
-    price={card.price} features={card.features}
-    webprice={card.webprice} msg={disclaimer} btnMsg={btnMsg} key={i}/>
+    <PlanCard card={card} msg={disclaimer} btnMsg={btnMsg} key={i}/>
 ))}
 </div>
 </div>

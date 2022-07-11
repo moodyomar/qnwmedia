@@ -6,7 +6,7 @@ const Swiper = ({ slides }) => {
 
   return (
     <>
-        <Carousel enableAutoPlay autoPlaySpeed={2000}
+        <Carousel enableAutoPlay autoPlaySpeed={2500}
         breakPoints={[
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2, itemsToScroll: 2},

@@ -1,7 +1,8 @@
 import './PlanCard.css'
 
 
-const PlanCard = ({sub,title,price,features,webprice,msg,btnMsg}) => { 
+const PlanCard = ({card:{sub,title,price,features,webprice,buylink}
+    ,btnMsg,msg}) => { 
 
 return(
 
@@ -16,7 +17,9 @@ data-aos={`zoom-in`} data-aos-duration="1500">
 </ul>
 <span className='plan-alert'>{msg}</span>
 <div className="webprice">( ₪{webprice} )</div>
-<button className='scale-in-center sub-btn'>{btnMsg}</button>
+<button className='scale-in-center sub-btn'>
+    <a href={buylink} target="_blank" rel="noreferrer">{btnMsg}</a>
+</button>
 </div>
 
 )
