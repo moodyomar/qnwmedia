@@ -160,7 +160,7 @@
             {
                 "sub": "חודשי",
                 "title": "עסק אישי",
-                "price": "279.99",
+                "price": "319.99",
                 "features": [
                     "דף פייסבוק ואינסטגרם",
                     "אתר ללא חנות עד 3 דפים",
@@ -178,7 +178,7 @@
             {
                 "sub": "חודשי",
                 "title": "עסק חברה",
-                "price": "479.99",
+                "price": "579.99",
                 "features": [
                     "כל מה שיש בעסק האישי פלוס",
                     "פוסט שבוע בפייסבוק/אינסטגרם",
@@ -194,7 +194,7 @@
             {
                 "sub": "חודשי",
                 "title": "עסק לעניין",
-                "price": "879.99",
+                "price": "979.99",
                 "features": [
                     "כל מה שיש בעסק חברה פלוס",
                     "דואר רשמי name@apple.com",
@@ -315,6 +315,7 @@
             {
                 "name": "Done Pro",
                 "website": "https://donepro.com",
+                "preview":"images/clients/slider_11.webp",
                 "favicon": "images/clients/donepro.webp",
                 "placment": {
                     "left": "130px",
