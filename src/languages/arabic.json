@@ -9,8 +9,8 @@
     ],
     "hero": {
         "h1": "ابدأ في البيع وجني الأموال قبل أن تفتح مصلحتك",
+        "h11": "دعنا نطور ونروج لك عملك الى عالم الإنترنت",
         "p": "متجر اونلاين يبيع حتى وإن لم تكن متواجد في متجرك!",
-        "h11": "دعنا نروج لك عملك الى عالم الإنترنت",
         "p11": "أكثر من مجرد وكالة تسويق اخرى",
         "h12": "وفر آلاف الصور، الرسائل والمكالمات الغير الضرورية",
         "p12": "موقع مخصص لعملك يرد على جميع عملائك",
@@ -126,8 +126,8 @@
                 "dir": "left"
             },
             {
-                "icon": "webdesign",
-                "title": "Web Design",
+                "icon": "socialmedia",
+                "title": "Social Media",
                 "desc": "إدارة صفحات عملك على الشبكات الاجتماعية ، بما في ذلك منشورات التصميم والإعلان والتسويق",
                 "dir": "right"
             },
@@ -177,7 +177,7 @@
             {
                 "sub": "شهري",
                 "title": "مصلحه متقدمه",
-                "price": "579.99",
+                "price": "599.99",
                 "features": [
                     "كل ما ذكر في المصلحه شخصيه زائد",
                     "منشور اسبوعي على فيسبوك و انستاغرام",
@@ -188,12 +188,12 @@
                     "توصيل نظام دفع عبر Paypal"
                 ],
                 "webprice": 5500,
-                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4P381459R2292411KLZWKKMA"
+                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0EC524174G722743WMLNO6QQ"
             },
             {
                 "sub": "شهري",
                 "title": "مصلحه شركه",
-                "price": "979.99",
+                "price": "999.99",
                 "features": [
                     "كل ما ذكر في المصلحه المتقدمه زائد",
                     "بريد الكتروني موثق apple.com",
@@ -201,13 +201,14 @@
                     "متجر على فيسبوك و انستاغرام",
                     "إدارة حسابات السوشيال ميديا",
                     "تصميم شعار مخصص",
+                    "تصميم حتى 2 لافتات / منشورات",
                     "تحميل ما يصل إلى 250 منتج",
                     "توصيل نظام دفع عبر كرديت كارد",
                     "إدارة تمويل بـ 1/4 شيكل لـ 1 شيكل",
                     "مستشار شخصي ومرافق بشكل متواصل"
                 ],
                 "webprice": 7000,
-                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4AG82423S7582974XLZWKNIQ"
+                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-7TR920947G5319629MLNO5LQ"
             }
         ]
     },
@@ -277,7 +278,7 @@
             },
             {
                 "name": "Simon Says Crypto",
-                "website": "https://simonsayscrypto.coil",
+                "website": "https://simonsayscrypto.co.il",
                 "preview":"images/clients/slider_9.webp",
                 "favicon": "images/clients/ssc.webp",
                 "placment": {
@@ -289,7 +290,7 @@
             },
             {
                 "name": "Fiad Eruim",
-                "website": "https://fiad-eruim.com",
+                "website": "https://fiad-eruim.co.il",
                 "preview":"images/clients/slider_3.jpeg",
                 "favicon": "images/clients/fiaderuim.webp",
                 "placment": {

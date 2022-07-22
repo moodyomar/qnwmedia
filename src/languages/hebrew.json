@@ -8,7 +8,7 @@
         "צרו קשר"
     ],
     "hero": {
-        "h1": "תתחיל לעשות כסף לפני שתפתח את העסק",
+        "h1": "תתחיל כבר לעשות כסף לפני שתפתח את העסק",
         "p": "חנות אונליין שמוכרת גם בזמן שאתה לא!",
         "h11": "תן לנו לקדם את העסק שלך לעולם האינטרנט",
         "p11": "יותר מאשר סוכנות השיווק הרגילה שלך",
@@ -64,7 +64,7 @@
             {
                 "icon": "design",
                 "title": "עיצוב ובניית אתרים",
-                "description": "משפרים את זהות העסק שלכם ומגיעים ללקוחות פוטנציאלים יותר עם אתר וחד יוצא מהכלל ץ אנו גם עובדים יחד כדי מזג את חזונות היצרתיים שלנו לבוא עם משהו מיוחד הפוך את עסקך למותג",
+                "description": "משפרים את זהות העסק שלכם ומגיעים ללקוחות פוטנציאלים יותר עם אתר ייחודי יוצא מהכללת ואנו גם עובדים יחד כדי מזג את חזונות היצרתיים שלנו לבוא עם משהו מיוחד הפוך את עסקך למותג",
                 "dir": "left"
             },
             {
@@ -116,7 +116,7 @@
             {
                 "icon": "seo",
                 "title": "SEO",
-                "desc": "אנו מספיקים לכם שירותי קידום ושיווק אורגני במנועי החיפוש הטובים ביותר בעולם",
+                "desc": "מספיקים לכם שירותי קידום ושיווק אורגני במנועי החיפוש הטובים ביותר בעולם",
                 "dir": "right"
             },
             {
@@ -126,9 +126,9 @@
                 "dir": "left"
             },
             {
-                "icon": "webdesign",
-                "title": "Web Design",
-                "desc": "מנהלים לכם את דפי העסק ברשתות החברתיום כולל עיצוב, פרסום , ושיווק פוסטים",
+                "icon": "socialmedia",
+                "title": "Social Media",
+                "desc": "מנהלים לכם את דפי העסק ברשתות החברתיום כולל פרסום , ושיווק ועיצוב פוסטים",
                 "dir": "right"
             },
             {
@@ -140,7 +140,7 @@
             {
                 "icon": "maintenance",
                 "title": "Maintenance",
-                "desc": "אנו נותנים לכם ליווי ותמיכה מלאה לכל עזרה , תקלה או אפילו שינויים עתידיים באתר",
+                "desc": "נותנים לכם ליווי ותמיכה מלאה לכל עזרה , תקלה או אפילו שינויים עתידיים באתר",
                 "dir": "right"
             },
             {
@@ -178,7 +178,7 @@
             {
                 "sub": "חודשי",
                 "title": "עסק חברה",
-                "price": "579.99",
+                "price": "599.99",
                 "features": [
                     "כל מה שיש בעסק האישי פלוס",
                     "פוסט שבוע בפייסבוק/אינסטגרם",
@@ -189,12 +189,12 @@
                     "חיבור תשלום באמצעות Paypal"
                 ],
                 "webprice": 5500,
-                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4P381459R2292411KLZWKKMA"
+                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-0EC524174G722743WMLNO6QQ"
             },
             {
                 "sub": "חודשי",
                 "title": "עסק לעניין",
-                "price": "979.99",
+                "price": "999.99",
                 "features": [
                     "כל מה שיש בעסק חברה פלוס",
                     "דואר רשמי name@apple.com",
@@ -202,13 +202,14 @@
                     "חנות באינסטגרם ובפייסבוק",
                     "ניהול חשבונות מידה",
                     "עיצוב לוגו בהתאמה אישית",
+                    "עיצוב עד 2 שלטים/פליירים פר בקשה",
                     "העלאה עד 250 מוצרים",
                     "חיבור מערכת סליקה לאתר",
                     "ניהול קמפיינים ב1/4₪ ל 1₪",
                     "מלווה ומייעץ אישי 24/7"
                 ],
                 "webprice": 7000,
-                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-4AG82423S7582974XLZWKNIQ"
+                "buylink":"https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-7TR920947G5319629MLNO5LQ"
             }
         ]
     },
@@ -278,7 +279,7 @@
             },
             {
                 "name": "Simon Says Crypto",
-                "website": "https://simonsayscrypto.coil",
+                "website": "https://simonsayscrypto.co.il",
                 "preview":"images/clients/slider_9.webp",
                 "favicon": "images/clients/ssc.webp",
                 "placment": {
@@ -290,7 +291,7 @@
             },
             {
                 "name": "Fiad Eruim",
-                "website": "https://fiad-eruim.com",
+                "website": "https://fiad-eruim.co.il",
                 "preview":"images/clients/slider_3.jpeg",
                 "favicon": "images/clients/fiaderuim.webp",
                 "placment": {

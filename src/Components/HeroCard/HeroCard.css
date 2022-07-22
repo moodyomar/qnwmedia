@@ -43,3 +43,12 @@ flex-direction: column;
         font-size: 1rem;
     }
   }
+
+  @media screen and (min-width:701px)and (max-width:900px) {
+    .HeroCard h2{
+        font-size: 1.3rem;
+    }
+    .HeroCard p{
+        font-size: 0.9rem;
+    }
+}
