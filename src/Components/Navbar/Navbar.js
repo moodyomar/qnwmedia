@@ -1,7 +1,7 @@
 import './Navbar.css'
 import React, { useState } from 'react';
 import {RiMenuLine,RiCloseLine} from 'react-icons/ri'
-import logo from '../../assets/longlogo.png'
+import logo from '../../assets/qoq-logo.webp'
 import {NavItems} from './NavItems'
 import { useEffect } from 'react/';
 

@@ -1,6 +1,6 @@
 import { NavItems } from '../../Components/Navbar/NavItems';
 import { GrMailOption,GrMapLocation, GrList} from 'react-icons/gr';
-import logo from '../../assets/long-white.png'
+import logo from '../../assets/qoq-white.webp'
 import './Footer.css'
 
 

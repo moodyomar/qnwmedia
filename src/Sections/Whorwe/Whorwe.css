@@ -1,3 +1,11 @@
 .Whorwe{
     flex-direction: column;
+    padding: 100px;
+}
+
+@media screen and (max-width: 700px) {
+    .Whorwe{
+        flex-direction: column;
+        padding: 25px;
+    }   
 }

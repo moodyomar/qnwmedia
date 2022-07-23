@@ -2,7 +2,7 @@ import {useEffect,useContext } from 'react';
 import LanguageContext from '../../context/LanguageContext';
 import {Link} from 'react-router-dom';
 import bg from '../../assets/lng-bg.webp'
-import logo from '../../assets/long-white.png'
+import logo from '../../assets/qoq-white.webp'
 import './LngSelect.css'
 import {SocialIcons} from '../../Components'
 

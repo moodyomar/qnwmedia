@@ -9,7 +9,7 @@
 }
 
 .Services .igimg {
-    width: 100%;
+    width: 90%;
     margin-bottom: 80px;
 }
 
@@ -47,10 +47,18 @@
     }
 
 }
-
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 750px) {
     .Services .igimg {
         width: 60%;
+    }
+    .features {
+        margin-right: 15%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .Services .igimg {
+        width: 400px;
     }
 
     .Services .ServiceCard {
@@ -81,14 +89,32 @@
     .cards {
         grid-area: cards;
         display: flex;
-        width: 550px;
+        width: 450px;
         margin: 50px;
-        height: 500px;
+        height: 450px;
         flex-wrap: wrap;
     }
 
     .features {
-        margin-left: 15%;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .Services .igimg {
+        width: 500px;
+    }
+    .cards {
+        grid-area: cards;
+        display: flex;
+        width: 550px;
+        margin: 50px;
+        height: 550px;
+        flex-wrap: wrap;
+    }
+
+    .features {
+        margin-left: 35%;
     }
 }
 

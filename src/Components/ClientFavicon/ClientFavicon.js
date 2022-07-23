@@ -12,7 +12,7 @@ right:placment.right,
 top:placment.top,
 bottom:placment.bottom
 }}>
-		<a href={website}>
+		<a href={website} target="_blank" rel="noreferrer">
 			<img src={favicon} alt={name} />
 		</a>
 	</div>

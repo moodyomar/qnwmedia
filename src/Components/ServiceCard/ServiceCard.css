@@ -12,9 +12,15 @@ margin-bottom: 100px;
     color: var(--orange);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
+    .ServiceCard{
+        width: 200px;
+        font-size: 0.9rem;
+    }   
+}
+
+@media screen and (min-width: 1350px) {
     .ServiceCard{
         width: 250px;
-        font-size: 0.9rem;
     }   
 }
